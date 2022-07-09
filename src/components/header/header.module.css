@@ -1,9 +1,20 @@
 header {
-    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.25%;
 }
 
 .divHeader {
-    background-color: blueviolet;
+    width: 55vw;
 }
 
+.divLogo{
+    width: 45vw;
+    min-height: 95px;
+}
 
+.Logo{
+    width: auto;
+    height: auto;
+    margin: 1%;
+}
