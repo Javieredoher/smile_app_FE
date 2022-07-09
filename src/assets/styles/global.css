@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;500&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -7,3 +9,18 @@ body {
     font-family: "Roboto", sans-serif;
     padding: 0;
 }
+
+h1, h3, i {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 350;
+}
+
+i {
+    font-size: 15px;
+}
+
+i:hover {
+    color: #6498c3;
+    cursor: pointer;
+}
+
