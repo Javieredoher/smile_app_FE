@@ -1,6 +1,9 @@
 footer {
-    background-color: aqua;
+    background-color: #5FCAD1;
     min-height: 30px;
     height: 5vh;
     width: 100vw;
+    text-align: center;
+    font-size: small;
+    padding-top: 1.5vh;
 }
