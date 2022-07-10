@@ -36,6 +36,15 @@ module.exports = {
         ]
       },
       {
+        test: /\.css$/,
+        use: [
+            {
+                loader: MiniCssExtractPlugin.loader,
+            },
+            "css-loader",
+        ],
+      },
+      {
         test: /\.(png|gif|jpg)$/,
         use: [
           {
@@ -61,4 +70,4 @@ module.exports = {
     port: 3006,
     historyApiFallback:true,
   }
-}
+} 
