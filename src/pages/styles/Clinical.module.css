@@ -1,0 +1,10 @@
+.HomeContent {
+    display: flex;
+    gap: 3vw;
+    /* NOTA: Ajustar el alto, fijar el footer*/
+    min-height: 83.6vh;
+    padding: 2vw;
+    align-items: center;
+    justify-content: center;
+    max-height: 800px;
+}
