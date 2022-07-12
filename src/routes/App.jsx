@@ -1,7 +1,9 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Login from '../pages/Login';
 import ClinicalModule from '../pages/odont/ClinicalModule';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Appointments from '../pages/user/Appointments';
 
 const App = () => {
     return(
@@ -14,6 +16,10 @@ const App = () => {
                 <Route 
                 exact path="/clinical-module"
                 element={<ClinicalModule/>}
+                />
+                <Route 
+                exact path="/appointments"
+                element={<Appointments/>}
                 />
             </Routes>
         </Router>
