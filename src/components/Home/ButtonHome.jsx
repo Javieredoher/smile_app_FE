@@ -3,10 +3,10 @@ import style from './home.module.css'
 
 function ButtonHome({value='', icon=''}) {
   return (
-    <>
-      <img />
-      <h3 className={style.ButtonHome}>{value}</h3>
-    </>
+    <div className={style.ButtonHome}>
+      <img src={icon} alt='icon button'/>
+      <h3 >{value}</h3>
+    </div>
   )
 }
 
