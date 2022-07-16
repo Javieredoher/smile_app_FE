@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './content.module.css'
+import style from './oContent.module.css'
 
 function Title({value=''}) {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import ButtonHome from '../ButtonHome'
 import Title from '../title'
-import style from '../home.module.css'
+import style from '../content.module.css'
 
 
 function ContentHome() {
