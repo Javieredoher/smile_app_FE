@@ -1,11 +1,11 @@
 import React from 'react'
 import ButtonHome from '../ButtonHome'
 import Title from '../title'
-import iconConsultHC from '../../../assets/images/consultHC.png'
-import newDoc from '../../../assets/images/newDoc.png'
 import style from '../content.module.css'
+import consultHC from '../../../assets/images/consultHC.png'
 
-function ContentHome() {
+
+function ContentOdont() {
 
   return (
     <div className={style.Content}> 
@@ -13,11 +13,12 @@ function ContentHome() {
             <Title value='MÓDULO CLÍNICO' />
         </div>
         <div className={style.DivContent}>
-          <ButtonHome value='Consultar historial clínico' icon={iconConsultHC}/>
-          <ButtonHome value='Registrar nueva evolución' icon={newDoc}/>
+          <ButtonHome value='Consultar historial clínico' icon={consultHC}/>
+          <ButtonHome value='Agregar nuevo paciente'/>
+          <ButtonHome value='Registrar nueva evolución'/>
         </div>
     </div>
   )
 }
 
-export default ContentHome
+export default ContentOdont

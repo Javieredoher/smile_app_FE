@@ -5,6 +5,8 @@ import iconConsultHC from '../../../assets/images/consultHC.png'
 import newDoc from '../../../assets/images/newDoc.png'
 import style from '../content.module.css'
 
+
+
 function ContentHome() {
 
   return (

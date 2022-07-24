@@ -2,9 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Login from '../pages/Login';
-import ClinicalModule from '../pages/odont/ClinicalModule';
 import Appointments from '../pages/user/Appointments';
 import { Profile } from '../pages/user/Profile';
+import ClinicalModule from '../pages/profConv/ClinicalModule';
+import OdClinicalModule from '../pages/odont/OdClinicalModule';
 
 const App = () => {
     return(
@@ -25,6 +26,11 @@ const App = () => {
                 <Route 
                 exact path="/profile"
                 element={<Profile/>}
+                />
+                
+                <Route 
+                exact path="/odont-clinical-module"
+                element={<OdClinicalModule/>}
                 />
             </Routes>
         </Router>
