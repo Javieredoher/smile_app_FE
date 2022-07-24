@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from '../pages/Login';
 import ClinicalModule from '../pages/odont/ClinicalModule';
 import Appointments from '../pages/user/Appointments';
+import { Profile } from '../pages/user/Profile';
 
 const App = () => {
     return(
@@ -20,6 +21,10 @@ const App = () => {
                 <Route 
                 exact path="/appointments"
                 element={<Appointments/>}
+                />
+                <Route 
+                exact path="/profile"
+                element={<Profile/>}
                 />
             </Routes>
         </Router>
