@@ -1,0 +1,20 @@
+[
+    {
+        "date": "23-01-2022",
+        "speciality": "Cirugía",
+        "doctor": "Mauricio Barón",
+        "state":0
+    },
+    {
+        "date": "28-01-2022",
+        "speciality": "Implantología",
+        "doctor": "Alexis Lozada",
+        "state":0
+    },
+    {
+        "date": "03-02-2022",
+        "speciality": "Ortodoncia",
+        "doctor": "Liliana Herreño",
+        "state":0
+    }
+]
