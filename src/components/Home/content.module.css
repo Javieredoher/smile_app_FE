@@ -1,5 +1,6 @@
 .Title {
     font-weight: bold;
+    margin: 0%;
 }
 
 .Content {
@@ -18,11 +19,9 @@
 }
 
 .DivTitle {
-    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -4vh;
 }
 
 .DivContent {
@@ -31,6 +30,8 @@
     align-items: center;
     justify-content: center;
     height: 44vh;
+    gap: 1vh;
+    margin-top: 5vh;
 }
 
 .ButtonHome {
