@@ -4,7 +4,9 @@ import style from './general.module.css'
 function Title ({value='' , icon=''}) {
   return (
     <div>
-      <h2 className={style.Title}>{value}</h2>
+      <div className={style.DivTitle}>
+         <h2 className={style.Title}>{value}</h2>
+      </div>
     </div>
     
   )
