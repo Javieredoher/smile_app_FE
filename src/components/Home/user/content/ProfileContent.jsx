@@ -1,6 +1,6 @@
 import React from 'react'
 import style from '../../content.module.css'
-import Title from '../../title'
+import Title from '../../Title'
 import InfoField from '../../../infoField/InfoField'
 import StyleContent from './styleContent.module.css'
 

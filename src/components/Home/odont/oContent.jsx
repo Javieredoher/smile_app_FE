@@ -1,6 +1,6 @@
 import React from 'react'
 import ButtonHome from '../ButtonHome'
-import Title from '../title'
+import Title from '../Title'
 import style from '../content.module.css'
 import consultHC from '../../../assets/images/consultHC.png'
 
