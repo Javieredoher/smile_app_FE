@@ -7,6 +7,7 @@ import { Profile } from '../pages/user/Profile';
 import ClinicalModule from '../pages/profConv/ClinicalModule';
 import OdClinicalModule from '../pages/odont/OdClinicalModule';
 import RegisterEvolution from '../pages/regEvo/RegisterEvolution';
+import GeneralInformation from '../pages/odont/addNewPatient/GeneralInformation'
 
 const App = () => {
     return(
@@ -23,6 +24,10 @@ const App = () => {
                 <Route 
                 exact path="/appointments"
                 element={<Appointments/>}
+                />
+                <Route
+                exact path="/general-information"
+                element={<GeneralInformation/>}
                 />
                 <Route 
                 exact path="/profile"

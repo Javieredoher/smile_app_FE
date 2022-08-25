@@ -6,6 +6,8 @@
     background-color: brown;
     text-align: center;
     margin: 2px;
+    width: 75vw;
+    justify-content: center;
 }
 
 .Header {
