@@ -28,47 +28,50 @@ function GeneralInfo() {
           placeholder=" Describa afecciones importantes del paciente"         
           />
           </div>
-            <div className={style.DivInputLine1}>
-            <Fields
-            className={style.TitleFirstSurname}
-            value="1er Apellido"
-            />
-            <Input
-            className={style.InputFirstSurname}
-            name="FirstSurName"
-            placeholder=" 1er Apellido"
-            />
-            <Fields
-            className={style.TitleSecondSurname}
-            value="2do Apellido"
-            />
-            <Input
-            className={style.InputSecondSurname}
-            name="SecondSurname"
-            placeholder=  " 2do Apellido"
-            />
-            <Fields
-            className={style.TitleFirstName}
-            value="1er Nombre"
-            />
-            <Input
-            className={style.InputFirstName}
-            name="FirstName"
-            placeholder=" 1er Nombre"
-            />
-            <Fields
-            className={style.TitleSecondName}
-            value="2do Nombre"
-            />
-            <Input
-            className={style.InputSecondName}
-            name="SecondName"
-            placeholder=" 2do Nombre"
-          />
+          <div className={style.DivInputLine1}>
+            <div className={style.DivInputSurnames}>
+              <Fields
+              className={style.TitleFirstSurname}
+              value="1er Apellido"
+              />
+              <Input
+              className={style.InputFirstSurname}
+              name="FirstSurName"
+              placeholder=" 1er Apellido"
+              />
+              <Fields
+              className={style.TitleSecondSurname}
+              value="2do Apellido"
+              />
+              <Input
+              className={style.InputSecondSurname}
+              name="SecondSurname"
+              placeholder=  " 2do Apellido"
+              />
+            </div>
+            <div className={style.DivInputNames}>
+              <Fields
+              className={style.TitleFirstName}
+              value="1er Nombre"
+              />
+              <Input
+              className={style.InputFirstName}
+              name="FirstName"
+              placeholder=" 1er Nombre"
+              />
+              <Fields
+              className={style.TitleSecondName}
+              value="2do Nombre"
+              />
+              <Input
+              className={style.InputSecondName}
+              name="SecondName"
+              placeholder=" 2do Nombre"
+              />
+            </div>
+              <div className={style.DivInputLine2}></div>
+          </div>
         </div>
-
-
-  </div>
 
     
 

@@ -1,16 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;500&display=swap');
+
 .Content {
-    display: center;
-    flex-direction: center;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    justify-content: center;
-    width: 100vw;
+    justify-content: flex-start;
+    width: 60vw;
     min-width: 360px;
     max-width: 800px;
     height: 72vh;
-    max-height: 800px;
-    border: 1px solid rgba(188, 172, 172, 0.4);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+    background-color: aquamarine;
 }
 
 .DivTitle {
@@ -27,13 +26,14 @@
 
 }
 
-
 .Title {
     font-weight: 700;
     font-family: 'Lexend Deca';
     font-size: 26px;
 }
 
+
+/*I. Información general*/
 
 .DivSubtitulo {
     height: 4vh;
@@ -52,6 +52,7 @@
     box-shadow: -1px 2px 6px grey;
 }
 
+/*Styles Alerta médica*/
 
 .DivInputAlert {
     height: 5vh;
@@ -61,11 +62,12 @@
     max-height: 100%;
     display: flex;
     align-items: center;
-    flex-direction: center;
-    text-align: center;
+    flex-direction: flex;
     margin-top: 1vh;
+    background-color: violet;
 
 }
+
 
 .TitleAlert {
     font-family: 'Lexend Deca';
@@ -73,26 +75,25 @@
     text-align: left;
     margin-left: 0.7vh;
     height: 3vh;
-    width: 58.8vw;
-    min-width: 360px;
+    width: 10vw;
+    min-width: 150px;
     max-width: 800px;
-    
-}
+    max-height: 100%;
 
+}
 
 
 .InputAlert {
     height: 3vh;
-    width: 43vw;
-    min-width: 330px;
+    width: 70vw;
+    min-width: 40px;
     max-width: 800px;
+    max-height: 100%;
     border-radius: 15px;
     border-style: solid;
     border-width: 0.1mm;
     border-color: rgb(153, 152, 152);
     display: flex;
-    align-content: center;
-    margin-left: -82%;
     margin-right: 1vh;
     background-color: #BCACAC;
     font-style: italic;
@@ -102,10 +103,10 @@
 
 
 
-
+/*Surnames-Names Styles*/
 
 .DivInputLine1 {
-    height: 5vh;
+    height: 7vh;
     width: 58.8vw;
     min-width: 360px;
     max-width: 800px;
@@ -117,8 +118,27 @@
     justify-items: center;
     justify-content: center;
     margin-top: 0.5vh;
+    background-color: yellow;
 
 }
+
+.DivInputSurnames {
+    height: 5vh;
+    width: 29.4vw;
+    min-width: 360px;
+    max-width: 800px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 0.3vh;
+    
+}
+
+
 
 .TitleFirstSurname {
     font-family: 'Lexend Deca';
@@ -126,27 +146,29 @@
     letter-spacing: -0.4mm;
     font-size: 14px;
     text-align: left;
-    margin-left: 0.8vh;
+    margin-left: 1vh;
     height: 3vh;
-    width: 58.8vw;
-    min-width: 360px;
-    max-width: 500px;   
+    width: 27vw;
+    min-width: 345px;
+    max-width: 800px;
+    max-height: 100%;
 }
 
 
 .InputFirstSurname {
     height: 3vh;
     width: 9vw;
+    min-width: 80px;
+    max-width: 800px;
+    max-height: 100%;
     border-radius: 15px;
     border-style: solid;
     border-width: 0.1mm;
     border-color: rgb(153, 152, 152);
     display: flex;
     align-content: center;
-    margin-left: -54%;
+    margin-left: -73%;
     background-color: #BCACAC;
-    min-width: 70px;
-    max-width: 160px;
     font-size: 11px;
     font-style: italic;
     box-shadow: -1px 1px 2px grey;
@@ -160,28 +182,47 @@
     text-align: left;
     margin-left: 1vh;
     height: 3vh;
-    width: 58.8vw;
+    width: 22vw;
     min-width: 360px;
-    max-width: 500px;   
+    max-width: 800px;
+    max-height: 100%;
 }
 
 
 .InputSecondSurname {
     height: 3vh;
     width: 9vw;
+    min-width: 80px;
+    max-width: 800px;
+    max-height: 100%;
     border-radius: 15px;
     border-style: solid;
     border-width: 0.1mm;
     border-color: rgb(153, 152, 152);
     display: flex;
     align-content: center;
-    margin-left: -53%;
+    margin-left: -72%;
+    margin-right: 1vh;
     background-color: #BCACAC;
-    min-width: 70px;
-    max-width: 160px;
     font-size: 11px;
     font-style: italic;
     box-shadow: -1px 1px 2px grey;
+}
+
+.DivInputNames {
+    height: 5vh;
+    width: 29.4vw;
+    min-width: 360px;
+    max-width: 800px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 0.5vh;
+
 }
 
 .TitleFirstName {
@@ -192,25 +233,27 @@
     text-align: left;
     margin-left: 1vh;
     height: 3vh;
-    width: 58.8vw;
-    min-width: 360px;
-    max-width: 500px;   
+    width: 27vw;
+    min-width: 345px;
+    max-width: 800px;
+    max-height: 100%;  
 }
 
 
 .InputFirstName {
     height: 3vh;
     width: 9vw;
+    min-width: 80px;
+    max-width: 800px;
+    max-height: 100%;
     border-radius: 15px;
     border-style: solid;
     border-width: 0.1mm;
     border-color: rgb(153, 152, 152);
     display: flex;
     align-content: center;
-    margin-left: -54%;
+    margin-left: -73%;
     background-color: #BCACAC;
-    min-width: 70px;
-    max-width: 160px;
     font-size: 11px;
     font-style: italic;
     box-shadow: -1px 1px 2px grey;
@@ -224,27 +267,63 @@
     text-align: left;
     margin-left: 1vh;
     height: 3vh;
-    width: 58.8vw;
+    width: 22vw;
     min-width: 360px;
-    max-width: 500px;   
+    max-width: 800px;
+    max-height: 100%;  
 }
 
 
 .InputSecondName {
     height: 3vh;
     width: 9vw;
+    min-width: 80px;
+    max-width: 800px;
+    max-height: 100%;
     border-radius: 15px;
     border-style: solid;
     border-width: 0.1mm;
     border-color: rgb(153, 152, 152);
     display: flex;
     align-content: center;
-    margin-left: -53%;
-    margin-right: 1vh;
+    margin-left: -71%;
+    margin-right: 0.8vh;
     background-color: #BCACAC;
-    min-width: 70px;
-    max-width: 160px;
     font-size: 11px;
     font-style: italic;
     box-shadow: -1px 1px 2px grey;
+}
+
+@media screen and (max-width: 1200px) {
+    .DivInputLine1{
+        flex-wrap: wrap;
+    }
+}
+
+
+/*Tipo y #ID - FNto - Edad Styles*/
+
+.DivInputLine2 {
+    height: 9vh;
+    width: 58.8vw;
+    min-width: 360px;
+    max-width: 800px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 0.5vh;
+    background-color: blueviolet;
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+  body {
+    background-color: lightgreen;
+  }
 }
