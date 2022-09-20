@@ -6,7 +6,7 @@ import Appointments from '../pages/user/Appointments';
 import { Profile } from '../pages/user/Profile';
 import ClinicalModule from '../pages/profConv/ClinicalModule';
 import OdClinicalModule from '../pages/odont/OdClinicalModule';
-
+import OdClinicalconsult from '../pages/odont/OdClinicalconsult';
 const App = () => {
     return(
         <Router>
@@ -31,6 +31,10 @@ const App = () => {
                 <Route 
                 exact path="/odont-clinical-module"
                 element={<OdClinicalModule/>}
+                />
+                <Route 
+                exact path="/odont-clinical-consult"
+                element={<OdClinicalconsult/>}
                 />
             </Routes>
         </Router>
