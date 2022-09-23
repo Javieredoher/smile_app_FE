@@ -9,11 +9,14 @@
     min-width: 360px;
     max-width: 800px;
     height: 72vh;
-    background-color: aquamarine;
+
 }
 
-.DivTitle {
-    height: 5vh;
+
+/*Encabezado*/
+
+.DivTittle {
+    height: 6vh;
     width: 58.8vw;
     min-width: 360px;
     max-width: 800px;
@@ -26,11 +29,20 @@
 
 }
 
-.Title {
-    font-weight: 700;
+.Tittle {
+    font-weight: 600;
     font-family: 'Lexend Deca';
-    font-size: 26px;
+    font-size: 30px;
+    
 }
+
+.Img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+
 
 
 /*I. Información general*/
@@ -52,6 +64,7 @@
     box-shadow: -1px 2px 6px grey;
 }
 
+
 /*Styles Alerta médica*/
 
 .DivInputAlert {
@@ -64,12 +77,10 @@
     align-items: center;
     flex-direction: flex;
     margin-top: 1vh;
-    background-color: violet;
 
 }
 
-
-.TitleAlert {
+.TittleAlert {
     font-family: 'Lexend Deca';
     font-weight: bold;
     text-align: left;
@@ -82,9 +93,8 @@
 
 }
 
-
 .InputAlert {
-    height: 3vh;
+    height: 3.5vh;
     width: 70vw;
     min-width: 40px;
     max-width: 800px;
@@ -97,229 +107,244 @@
     margin-right: 1vh;
     background-color: #BCACAC;
     font-style: italic;
-    box-shadow: -1px 1px 2px grey;
+    box-shadow: -1px 1px 1px grey;
 }
 
 
 
 
-/*Surnames-Names Styles*/
+/*Estilos contenedores de campos y nombres de campos*/
 
-.DivInputLine1 {
-    height: 7vh;
+.DivInputs {
+    height: 5vh;
+    width: 58.8vw;
+    min-width: 360px;
+    max-width: 800px;
+    max-height: 800px;
+    display: flex;
+    margin-top: 0.8vh;
+
+}
+
+.DivInputs2 {
+    height: 5vh;
     width: 58.8vw;
     min-width: 360px;
     max-width: 800px;
     max-height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: center;
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
-    margin-top: 0.5vh;
-    background-color: yellow;
+    display: inline-flex;
+    margin-top: 0.8vh;
 
 }
 
-.DivInputSurnames {
+
+.DivInputs3 {
     height: 5vh;
-    width: 29.4vw;
-    min-width: 360px;
+    width: 50vw;
+    min-width: 320px;
     max-width: 800px;
     max-height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: center;
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
-    margin-top: 0.3vh;
-    
+    display: inline-flex;
+    margin-top: 0.8vh;
+
 }
 
 
+/*Estilos nombres de los campos*/
 
-.TitleFirstSurname {
+.TittleFields {
     font-family: 'Lexend Deca';
     font-style: bold;
     letter-spacing: -0.4mm;
     font-size: 14px;
+    height: 3vh;
+    width: 46vw;
+    max-height: 100%;
     text-align: left;
-    margin-left: 1vh;
-    height: 3vh;
-    width: 27vw;
-    min-width: 345px;
-    max-width: 800px;
-    max-height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 
-.InputFirstSurname {
-    height: 3vh;
-    width: 9vw;
-    min-width: 80px;
-    max-width: 800px;
-    max-height: 100%;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 0.1mm;
-    border-color: rgb(153, 152, 152);
-    display: flex;
-    align-content: center;
-    margin-left: -73%;
-    background-color: #BCACAC;
-    font-size: 11px;
-    font-style: italic;
-    box-shadow: -1px 1px 2px grey;
-}
-
-.TitleSecondSurname {
+.TittleFields2 {
     font-family: 'Lexend Deca';
     font-style: bold;
     letter-spacing: -0.4mm;
     font-size: 14px;
+    height: 3vh;
+    width: 50vw;
+    max-height: 100%;
     text-align: left;
-    margin-left: 1vh;
-    height: 3vh;
-    width: 22vw;
-    min-width: 360px;
-    max-width: 800px;
-    max-height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 
-.InputSecondSurname {
-    height: 3vh;
-    width: 9vw;
-    min-width: 80px;
-    max-width: 800px;
-    max-height: 100%;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 0.1mm;
-    border-color: rgb(153, 152, 152);
-    display: flex;
-    align-content: center;
-    margin-left: -72%;
-    margin-right: 1vh;
-    background-color: #BCACAC;
-    font-size: 11px;
-    font-style: italic;
-    box-shadow: -1px 1px 2px grey;
-}
-
-.DivInputNames {
-    height: 5vh;
-    width: 29.4vw;
-    min-width: 360px;
-    max-width: 800px;
-    max-height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: center;
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
-    margin-top: 0.5vh;
-
-}
-
-.TitleFirstName {
-    font-family: 'Lexend Deca';
-    font-style: bold;
-    letter-spacing: -0.5mm;
-    font-size: 14px;
-    text-align: left;
-    margin-left: 1vh;
-    height: 3vh;
-    width: 27vw;
-    min-width: 345px;
-    max-width: 800px;
-    max-height: 100%;  
-}
-
-
-.InputFirstName {
-    height: 3vh;
-    width: 9vw;
-    min-width: 80px;
-    max-width: 800px;
-    max-height: 100%;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 0.1mm;
-    border-color: rgb(153, 152, 152);
-    display: flex;
-    align-content: center;
-    margin-left: -73%;
-    background-color: #BCACAC;
-    font-size: 11px;
-    font-style: italic;
-    box-shadow: -1px 1px 2px grey;
-}
-
-.TitleSecondName {
+.TittleFields3 {
     font-family: 'Lexend Deca';
     font-style: bold;
     letter-spacing: -0.4mm;
     font-size: 14px;
-    text-align: left;
-    margin-left: 1vh;
     height: 3vh;
-    width: 22vw;
-    min-width: 360px;
-    max-width: 800px;
-    max-height: 100%;  
+    width: 31vw;
+    max-height: 100%;
+    text-align: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.TittleFields4 {
+    font-family: 'Lexend Deca';
+    font-style: bold;
+    letter-spacing: -0.4mm;
+    font-size: 14px;
+    height: 3vh;
+    width: 20vw;
+    max-height: 100%;
+    text-align: left;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 
-.InputSecondName {
+.TittleFields5 {
+    font-family: 'Lexend Deca';
+    font-style: bold;
+    letter-spacing: -0.4mm;
+    font-size: 14px;
     height: 3vh;
-    width: 9vw;
-    min-width: 80px;
-    max-width: 800px;
+    width: 13vw;
+    max-height: 100%;
+    text-align: left;
+    margin-left: 1%;
+    margin-right: 1.5%;
+}
+
+/*Estilos inputs*/
+
+.Input {
+    height: 3.5vh;
+    width: 70vw;
+    min-width: 90px;
+    max-width: 200px;
     max-height: 100%;
     border-radius: 15px;
     border-style: solid;
     border-width: 0.1mm;
     border-color: rgb(153, 152, 152);
     display: flex;
-    align-content: center;
-    margin-left: -71%;
+    margin-left: 0.3vh;
     margin-right: 0.8vh;
     background-color: #BCACAC;
-    font-size: 11px;
     font-style: italic;
-    box-shadow: -1px 1px 2px grey;
+    box-shadow: -1px 1px 1px grey;
 }
 
-@media screen and (max-width: 1200px) {
-    .DivInputLine1{
+.Input2 {
+    height: 3.5vh;
+    width: 140vw;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 100%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: rgb(153, 152, 152);
+    display: flex;
+    margin-left: 0.3vh;
+    margin-right: 0.8vh;
+    background-color: #BCACAC;
+    font-style: italic;
+    box-shadow: -1px 1px 1px grey;
+}
+
+
+.Input3 {
+    height: 3.5vh;
+    width: 150vw;
+    min-width: 250px;
+    max-width: 200px;
+    max-height: 100%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: rgb(153, 152, 152);
+    display: flex;
+    margin-right: 0.8vh;
+    background-color: #BCACAC;
+    font-style: italic;
+    box-shadow: -1px 1px 1px grey;
+}
+
+
+.Input4 {
+    height: 3.5vh;
+    width: 30vw;
+    min-width: 60px;
+    max-width: 200px;
+    max-height: 100%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: rgb(153, 152, 152);
+    display: flex;
+    margin-right: 0.8vh;
+    background-color: #BCACAC;
+    font-style: italic;
+    box-shadow: -1px 1px 1px grey;
+}
+
+.Input5 {
+    height: 3.5vh;
+    width: 150vw;
+    min-width: 330px;
+    max-width: 300px;
+    max-height: 100%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: rgb(153, 152, 152);
+    display: flex;
+    margin-right: 0.8vh;
+    background-color: #BCACAC;
+    font-style: italic;
+    box-shadow: -1px 1px 1px grey;
+}
+
+
+.Input6 {
+    height: 3.5vh;
+    width: 90vw;
+    min-width: 90px;
+    max-width: 200px;
+    max-height: 100%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: rgb(153, 152, 152);
+    display: flex;
+    margin-left: 0.3vh;
+    margin-right: 0.8vh;
+    background-color: #BCACAC;
+    font-style: italic;
+    box-shadow: -1px 1px 1px grey;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .Content{
         flex-wrap: wrap;
     }
 }
 
-
-/*Tipo y #ID - FNto - Edad Styles*/
-
-.DivInputLine2 {
-    height: 9vh;
-    width: 58.8vw;
-    min-width: 360px;
-    max-width: 800px;
-    max-height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: center;
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
-    margin-top: 0.5vh;
-    background-color: blueviolet;
-
+@media screen and (max-width: 1200px) {
+    .DivInputs{
+        flex-wrap: wrap;
+    }
 }
-
 
 
 @media screen and (max-width: 576px) {
