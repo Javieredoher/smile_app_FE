@@ -1,0 +1,13 @@
+.Info {
+    background-color:  #d7cdcd;;
+    min-width: 330px;
+    max-width: 500px;
+    width: 70%;
+    border-radius: 15px;
+    border: 0;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    margin: 0;
+}

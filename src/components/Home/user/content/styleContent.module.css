@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;500&display=swap');
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.ItemList {
+    display: flex;
+    font: inherit;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.DivList {
+    display: flex;
+    flex-direction: column;
+}
+
+.PList {
+    width: 25%;
+    text-align: start;
+    margin: 0;
+}
