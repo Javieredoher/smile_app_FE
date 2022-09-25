@@ -1,15 +1,117 @@
-.REcontent {
-    background-color: red;
+.DivTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
 }
 
 .Title {
-    background-color: brown;
     text-align: center;
-    margin: 2px;
-    width: 75vw;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 15px;
 }
 
-.Header {
-    background-color: blueviolet;
+.DivSubtitulo {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+}
+
+.DivData{
+    display: flex;
+    min-height: fit-content;
+    min-width: 30vh;
+    margin-block: 2vh;
+    margin-inline: 8vw;
+    justify-content: space-around space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Label{
+    margin-right: 5px;
+    font-family: 'Lexend Deca';
+}
+
+.Input{
+    float: left;
+    width: 36.3vw;
+    min-width: 160px;
+    height: 4vh;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    padding: 5px;
+    justify-content: left;
+}
+
+.InputInt{
+    float: left;
+    width: 22vw;
+    min-width: 160px;
+    height: 4vh;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    padding: 5px;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.Nombre{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    padding-inline: 4.5px;
+    padding-block: 3px;
+    flex-wrap: wrap;
+}
+
+.DivEvoInput{
+    min-height: fit-content;
+    min-width: 30vh;
+    margin-block: 2vh;
+    margin-inline: 8vw;
+}
+
+.EvoInput{
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    resize: none;
+    height: 15vh;
+    width: 83vw;
+    padding: 10px;
+    overflow: auto;
+    align-items: flex-end;
+    justify-content: baseline;
+    font-family: 'Arimo';
+    font-style: italic;
+}
+
+.DivButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.Button{
+    height: 80vh;
+    background-color: brown;
+    font-size: 50px;
+}
+
+.Footer{
+    clear: both;
 }
