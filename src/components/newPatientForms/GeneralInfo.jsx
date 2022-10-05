@@ -3,7 +3,6 @@ import style from "../newPatientForms/general.module.css"
 import Title from "../newPatientForms/Title"
 import Input from "../newPatientForms/InputsForm"
 import Fields from "./Fields"
-
 import newPatient from "../../assets/images/newPatient.png"
 
 

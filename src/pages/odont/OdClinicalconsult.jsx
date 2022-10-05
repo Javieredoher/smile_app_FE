@@ -1,18 +1,15 @@
 import React from 'react'
-
 import style from '../styles/Clinical.module.css'
 import Header from '../../components/header/Header'
-import Menu from '../../components/menu/odont/OdontMenu'
 import Footer from '../../components/footer/Footer'
-import fields from '../../components/newpatientsforms/fields'
-import imput from '../../components/newpatientsforms/Inputsform'
+import Content from'../../components/Home/odont/omodule'
+
 export const OdClinicalconsult = () => {
   return (
     <div>
         <Header/>
           <div className={style.HomeContent}>
-          <Menu/>
-          <ContentOdont/>
+            <Content/>
           </div>
         <Footer/>
     </div>

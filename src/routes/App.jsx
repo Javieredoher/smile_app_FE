@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Login from '../pages/Login'
 import Appointments from '../pages/user/Appointments'
 import GeneralInformation from '../pages/odont/addNewPatient/GeneralInformation'
-import Profile from '../pages/user/Profile'
+import {Profile}  from '../pages/user/Profile'
 import ClinicalModule from '../pages/profConv/ClinicalModule'
 import OdClinicalModule from '../pages/odont/OdClinicalModule'
+import OdClinicalconsult from '../pages/odont/OdClinicalconsult'
 
 const App = () => {
     return(
@@ -35,7 +36,12 @@ const App = () => {
                 exact path="/odont-clinical-module"
                 element={<OdClinicalModule/>}
                 />
+                <Route 
+                exact path="/odont-clinical-consult"
+                element={<OdClinicalconsult/>}
+                />
             </Routes>
+
         </Router>
     )
 }
