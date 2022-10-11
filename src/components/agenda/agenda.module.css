@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;500&display=swap');
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    width: 60vw;
+    min-width: 360px;
+    max-width: 800px;
+    height: 72vh;
+
+}
+
+.DivTittle {
+    height: 6vh;
+    width: 58.8vw;
+    min-width: 360px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    flex-direction: center;
+    margin-top: 2vh;
+
+}
+
+.Tittle {
+    font-weight: 600;
+    font-family: 'Lexend Deca';
+    font-size: 30px;
+    
+}
+
+.Img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.DivSubtitulo {
+    height: 4vh;
+    width: 58.8vw;
+    min-width: 360px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    flex-direction: center;
+    margin-top: 3vh;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    box-shadow: -1px 2px 6px grey;
+}
+
+.DivInput {
+    height: 5.5vh;
+    width: 58.8vw;
+    min-width: 360px;
+    max-width: 800px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: flex;
+    margin-top: 1vh;
+
+}
+
+
+.DivInput2 {
+    height: 30vh;
+    width: 58.8vw;
+    min-width: 360px;
+    max-width: 800px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: flex;
+    margin-top: 1vh;
+
+}
+
+
+.Input {
+    height: 5vh;
+    width: 70vw;
+    min-width: 300px;
+    max-width: 785px;
+    max-height: 100%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: rgb(153, 152, 152);
+    display: flex;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    background-color: #BCACAC;
+    font-style: italic;
+    box-shadow: -1px 1px 1px grey;
+}
+
+.Input2 {
+    height: 30vh;
+    width: 70vw;
+    min-width: 300px;
+    max-width: 785px;
+    max-height: 100%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: rgb(153, 152, 152);
+    display: flex;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    background-color: #BCACAC;
+    font-style: italic;
+    box-shadow: -1px 1px 1px grey;
+}
+
+
+
