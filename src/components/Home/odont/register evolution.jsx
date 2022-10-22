@@ -4,7 +4,7 @@ import Input from "../../newPatientForms/InputsForm"
 import Fields from "../../newPatientForms/Fields"
 import style from "../../Home/odont/o.module.css"
 import Button from '../../button/Button'
-function omodule() {
+function registerevolution() {
     return( 
     
     <div className={style.Content}>
@@ -28,4 +28,4 @@ function omodule() {
 
     )
 }
-export default omodule
+export default registerevolution
