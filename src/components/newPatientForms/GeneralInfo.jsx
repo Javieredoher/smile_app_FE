@@ -17,7 +17,8 @@ function GeneralInfo() {
     </div>
     <div className={style.DivSubtitulo}>
         <h3>I. INFORMACIÓN GENERAL</h3>
-    </div>   
+    </div>
+    <form>   
         <div className={style.DivInputAlert}>
           <Fields className={style.TittleAlert} value='ALERTA MÉDICA'/>
           <Input className={style.InputAlert} name="Alert" placeholder=" Describa afecciones importantes del paciente"/>
@@ -102,6 +103,7 @@ function GeneralInfo() {
             <Input className={style.Input} name="cellphonenumber2" placeholder=" N° Celular"/>
           </div> 
         </div>
+    </form>
 
           
   </div>
