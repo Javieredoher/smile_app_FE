@@ -2,7 +2,7 @@ import React from "react"
 import style from "../agenda/agenda.module.css"
 import Title from "../newPatientForms/Title"
 import Input from "../newPatientForms/InputsForm"
-import ButtonAppt from "../agenda/ButtonAppt"
+import Button from "../button/Button"
 
 
 
@@ -28,8 +28,8 @@ function FormCreateAppt() {
                 </div>
             </form>
             <div className={style.DivButton}>
-                <ButtonAppt value="Anterior"/>
-                <ButtonAppt value="Guardar"/>
+                <Button className={style.ButtonForm} value="Anterior"/>
+                <Button className={style.ButtonForm} value="Guardar"/>
             </div>
         </div>
 
