@@ -27,7 +27,7 @@ function LoginForm() {
         </form>
         <i className={style.Forgot}>¿Olvidaste la contraseña?</i>
         <div className={style.DivButton}>
-          <Button value='Ingresar'/>
+          <Button className={style.ButtonInput} value='Ingresar'/>
         </div>
     </div>
   )

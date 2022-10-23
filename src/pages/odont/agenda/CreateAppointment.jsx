@@ -1,22 +1,15 @@
 import React from "react"
-
-import style from '../../styles/Npatient.module.css'
-
+import style from '../../styles/Clinical.module.css'
 import Header from "../../../components/header/Header"
-import Content from "../../../components/newPatientForms/GeneralInfo"
+import Content from "../../../components/agenda/FormCreateAppt"
 import Footer from "../../../components/footer/Footer"
 
-
-
-
-
-export const GeneralInformation = () => {
+export const CreateAppointment = () => {
     return (
       <div>
           <Header/>
           <div className={style.HomeContent}>
             <Content/>
-          
           </div>
 
           <Footer/>
@@ -25,4 +18,4 @@ export const GeneralInformation = () => {
     )
   }
 
-  export default GeneralInformation
+  export default CreateAppointment
