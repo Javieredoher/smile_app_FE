@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;500&display=swap');
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    width: 60vw;
+    min-width: 360px;
+    max-width: 800px;
+    height: 72vh;
+    box-shadow: -1px 2px 6px grey;
+    border-radius: 8px;
+
+}
+
+.DivTittle {
+    height: 6vh;
+    width: 58.8vw;
+    min-width: 360px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    flex-direction: center;
+    margin-top: 2vh;
+
+}
+
+.Tittle {
+    font-weight: 600;
+    font-family: 'Lexend Deca';
+    font-size: 30px;
+    
+}
+
+.Img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.DivSubtitulo {
+    height: 4vh;
+    width: 58.8vw;
+    min-width: 360px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    flex-direction: center;
+    margin-top: 3vh;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    box-shadow: -1px 2px 6px grey;
+}
+
+.DivInput {
+    height: 5.5vh;
+    width: 58.8vw;
+    min-width: 360px;
+    max-width: 800px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: flex;
+    margin-top: 1.5vh;
+
+}
+
+
+.DivInput2 {
+    height: 30vh;
+    width: 58.8vw;
+    min-width: 360px;
+    max-width: 800px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: flex;
+    margin-top: 1.5vh;
+
+}
+
+
+.Input {
+    height: 5vh;
+    width: 60vw;
+    min-width: 300px;
+    max-width: 770px;
+    max-height: 100%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: rgb(153, 152, 152);
+    display: flex;
+    margin:auto;
+    background-color: #cec5c5;
+    font-style: italic;
+    color: grey;
+    text-indent: 10px;
+    box-shadow: -1px 1px 1px grey;
+}
+
+
+.Input2 {
+    height: 30vh;
+    width: 70vw;
+    min-width: 300px;
+    max-width: 770px;
+    max-height: 100%;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: rgb(153, 152, 152);
+    display: flex;
+    margin:auto;
+    background-color: #cec5c5;
+    font-style: italic;
+    box-shadow: -1px 1px 1px grey;
+}
+
+.DivButton {
+    height: 30vh;
+    width: 58.8vw;
+    min-width: 360px;
+    max-width: 800px;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+
+}
+
+.ButtonForm:hover {
+    cursor: pointer; 
+    transform: scale(1.15);
+}
+
+.ButtonForm {
+    background-color: #5FCAD1;
+    border: 0;
+    border-radius: 3px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: white;
+    box-shadow:        
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.1em 0.2em 0.4em rgba(0,0,0,0.5);
+    padding: 8px;
+    margin: 15px;
+}
+
+
+
