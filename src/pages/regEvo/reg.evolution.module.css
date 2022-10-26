@@ -1,0 +1,129 @@
+.DivTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.Title {
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.DivSubtitulo {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+}
+
+.DivData{
+    display: flex;
+    min-height: fit-content;
+    min-width: 30vh;
+    margin-block: 2vh;
+    margin-inline: 8vw;
+    justify-content: space-around space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Label{
+    margin-right: 5px;
+    font-family: 'Lexend Deca';
+}
+
+.Input{
+    float: left;
+    width: 36.3vw;
+    min-width: 160px;
+    height: 4vh;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    padding: 5px;
+    justify-content: left;
+}
+
+.InputInt{
+    float: left;
+    width: 22vw;
+    min-width: 160px;
+    height: 4vh;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    padding: 5px;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.Nombre{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    padding-inline: 4.5px;
+    padding-block: 3px;
+    flex-wrap: wrap;
+}
+
+.DivEvoInput{
+    min-height: fit-content;
+    min-width: 30vh;
+    margin-block: 2vh;
+    margin-inline: 8vw;
+}
+
+.EvoInput{
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    resize: none;
+    height: 15vh;
+    width: 83vw;
+    padding: 10px;
+    overflow: auto;
+    align-items: flex-end;
+    justify-content: baseline;
+    font-family: 'Arimo';
+    font-style: italic;
+}
+
+.DivButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.Button:hover {
+    cursor: pointer; 
+    transform: scale(1.15);
+}
+
+.Button{
+    background-color: #5FCAD1;
+    border: 0;
+    border-radius: 3px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    box-shadow:        
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.1em 0.2em 0.4em rgba(0,0,0,0.5);
+    padding: 8px;
+    font-size: 15px;
+}
+
+.Footer{
+    clear: both;
+}

@@ -4,6 +4,12 @@
     align-items: center;
     justify-content: space-around;
     gap: 10vh;
+    height: 100%;
 }
 
+.Footer{
+width: 100%;
+align-items: bottom;
+margin-top: 35px;
+}
 /* ------------- MEDIA QUERIES --------------- */

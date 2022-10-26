@@ -8,7 +8,10 @@ export const Login = () => {
   return (
     <div className={style.LoginPage}>
         <Header/>
-        <LoginForm/> 
+        <LoginForm/>
+        <div className={style.Footer}>
+          <Footer/>
+          </div> 
     </div>
   )
 }

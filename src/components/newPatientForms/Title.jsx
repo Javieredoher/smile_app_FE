@@ -5,7 +5,7 @@ function Title ({value='' , icon=''}) {
   return (
     <div>
       <div className={style.DivTitle}>
-         <p className={style.Tittle}>{value}</p>
+          <h2 className={style.Title}>{value}</h2>
       </div>
     </div>
     
