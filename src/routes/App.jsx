@@ -6,6 +6,8 @@ import GeneralInformation from '../pages/odont/addNewPatient/GeneralInformation'
 import { Profile } from '../pages/user/Profile';
 import ClinicalModule from '../pages/profConv/ClinicalModule';
 import OdClinicalModule from '../pages/odont/OdClinicalModule';
+import OdClinicalconsult from '../pages/odont/OdClinicalconsult';
+import OdClinicalhistory from '../pages/odont/Odclinicalhistory';
 
 const App = () => {
     return(
@@ -34,6 +36,14 @@ const App = () => {
                 <Route 
                 exact path="/odont-clinical-module"
                 element={<OdClinicalModule/>}
+                />
+                <Route 
+                exact path="/odont-clinical-consult"
+                element={<OdClinicalconsult/>}
+                />
+                 <Route 
+                exact path="/odont-clinical-history"
+                element={<OdClinicalhistory/>}
                 />
             </Routes>
 
