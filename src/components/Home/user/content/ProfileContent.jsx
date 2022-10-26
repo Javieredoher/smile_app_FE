@@ -1,6 +1,6 @@
 import React from 'react'
 import style from '../../content.module.css'
-import Title from '../../Title'
+import Title from '../../../../assets/styles/Title'
 import InfoField from '../../../infoField/InfoField'
 import StyleContent from './styleContent.module.css'
 
@@ -13,7 +13,7 @@ function ProfileContent() {
         </div>
         <ul className={StyleContent.DivList}>
           <li className={StyleContent.ItemList}><p className={StyleContent.PList}>Tipo y n° de documento</p> <InfoField value = "1095453165"/></li>
-          <li className={StyleContent.ItemList}><p className={StyleContent.PList}>Nombres</p> <InfoField value = "Nathalia"/></li>
+          <li className={StyleContent.ItemList}><p className={StyleContent.PList}>Nombres</p> <InfoField value = "Pepita"/></li>
           <li className={StyleContent.ItemList}><p className={StyleContent.PList}>Apellidos</p> <InfoField value = "Acosta"/></li>
           <li className={StyleContent.ItemList}><p className={StyleContent.PList}>Teléfono</p><InfoField value = "3112224444"/></li>
           <li className={StyleContent.ItemList}><p className={StyleContent.PList}>Correo electrónico</p><InfoField value = "email@mail.com"/></li>

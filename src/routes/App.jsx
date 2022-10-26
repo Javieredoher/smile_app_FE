@@ -5,7 +5,7 @@ import Appointments from '../pages/user/Appointments'
 import {Profile} from '../pages/user/Profile'
 import ClinicalModule from '../pages/profConv/ClinicalModule'
 import OdClinicalModule from '../pages/odont/OdClinicalModule'
-import CreateAppointment from '../pages/odont/agenda/createAppointment'
+import CreateAppointment from '../pages/odont/agenda/CreateAppointment'
 import RegisterEvolution from '../pages/regEvo/RegisterEvolution';
 import GeneralInformation from '../pages/odont/addNewPatient/GeneralInformation'
 

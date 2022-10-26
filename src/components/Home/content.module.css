@@ -1,8 +1,3 @@
-.Title {
-    font-weight: bold;
-    margin: 0%;
-}
-
 .Content {
     display: flex;
     flex-direction: column;
@@ -50,4 +45,9 @@
     cursor: pointer;
     background-color: #2EB394;
     color: white
+}
+
+.Img{
+    width: 50px;
+    height: 50px;
 }

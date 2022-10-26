@@ -15,8 +15,7 @@ export const GeneralInformation = () => {
       <div>
           <Header/>
           <div className={style.HomeContent}>
-            <Content/>
-          
+          <Content/>
           </div>
 
           <Footer/>
