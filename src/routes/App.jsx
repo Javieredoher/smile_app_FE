@@ -1,11 +1,11 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-import Login from '../pages/Login';
-import Appointments from '../pages/user/Appointments';
-import { Profile } from '../pages/user/Profile';
-import ClinicalModule from '../pages/profConv/ClinicalModule';
-import OdClinicalModule from '../pages/odont/OdClinicalModule';
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Login from '../pages/Login'
+import Appointments from '../pages/user/Appointments'
+import {Profile} from '../pages/user/Profile'
+import ClinicalModule from '../pages/profConv/ClinicalModule'
+import OdClinicalModule from '../pages/odont/OdClinicalModule'
+import CreateAppointment from '../pages/odont/agenda/CreateAppointment'
 import RegisterEvolution from '../pages/regEvo/RegisterEvolution';
 import GeneralInformation from '../pages/odont/addNewPatient/GeneralInformation'
 
@@ -38,7 +38,10 @@ const App = () => {
                 exact path="/odont-clinical-module"
                 element={<OdClinicalModule/>}
                 />
-
+                <Route 
+                exact path="/create-appointment-module"
+                element={<CreateAppointment/>}
+                />
                 <Route
                 exact path="/register-evolution"
                 element={<RegisterEvolution/>}

@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;500&display=swap');
 
-.Content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: flex-start;
-    width: 60vw;
-    min-width: 360px;
-    max-width: 800px;
-    height: 72vh;
-
-}
-
-
 /*Encabezado*/
 
 .DivTittle {
@@ -237,6 +224,7 @@
     margin-right: 0.8vh;
     background-color: #BCACAC;
     font-style: italic;
+    color: grey;
     box-shadow: -1px 1px 1px grey;
 }
 
@@ -332,19 +320,6 @@
 
 
 
-
-
-@media screen and (max-width: 1000px) {
-    .Content{
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .DivInputs{
-        flex-wrap: wrap;
-    }
-}
 
 
 @media screen and (max-width: 576px) {

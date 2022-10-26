@@ -16,8 +16,8 @@ function ContentOdont() {
         </div>
         <div className={style.DivContent}>
           <ButtonHome value='Consultar historial clínico' icon={consultHC}/>
-          <ButtonHome value='Agregar nuevo paciente'icon={newPatient}/>
-          <ButtonHome value='Registrar nueva evolución'icon={newDoc}/>
+          <ButtonHome value='Agregar nuevo paciente' icon={newPatient}/>
+          <ButtonHome value='Registrar nueva evolución' icon={newDoc}/>
         </div>
     </div>
   )
