@@ -68,7 +68,7 @@ return (
                     />
                 </div>
                 <div className={style.DivButton}>
-                    <Button value='Adjuntar archivos'/>
+                    <Button className={style.Button} value='Adjuntar archivos'/>
                 </div>
             <div className={style.DivSubtitulo}>
                 <h3>PROCEDIMIENTO (CUPS)</h3>

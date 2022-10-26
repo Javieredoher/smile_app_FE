@@ -106,10 +106,22 @@
     margin-bottom: 2vh;
 }
 
+.Button:hover {
+    cursor: pointer; 
+    transform: scale(1.15);
+}
+
 .Button{
-    height: 80vh;
-    background-color: brown;
-    font-size: 50px;
+    background-color: #5FCAD1;
+    border: 0;
+    border-radius: 3px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    box-shadow:        
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.1em 0.2em 0.4em rgba(0,0,0,0.5);
+    padding: 8px;
+    font-size: 15px;
 }
 
 .Footer{
