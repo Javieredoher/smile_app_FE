@@ -4,13 +4,13 @@
     justify-content: center;
     text-align: center;
     margin: 10px;
+    margin-bottom: 20px;
 }
 
 .Title {
     text-align: center;
     width: 100%;
     justify-content: space-around;
-    margin-top: 15px;
 }
 
 .DivSubtitulo {

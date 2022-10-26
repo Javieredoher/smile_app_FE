@@ -1,8 +1,8 @@
 import React from 'react'
 import style from '../../content.module.css'
-import Title from '../../Title'
+import Title from '../../../../assets/styles/Title'
 import InfoField from '../../../infoField/InfoField'
-import StyleContent from './styleContent.module.css'
+import StyleContent from './profile.content.module.css'
 
 
 function ProfileContent() {
