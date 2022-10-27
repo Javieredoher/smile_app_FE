@@ -3,13 +3,13 @@ import Header from "../../../components/header/Header"
 import Footer from "../../../components/footer/Footer"
 import style from '../agenda/agenda.module.css'
 import Title from "../../../assets/styles/Title"
-import Input from "../../../components/newPatientForms/InputsForm"
+import Input from "../../../components/inputs/InputsForm"
 import Button from "../../../components/button/Button"
 
 
-export const CreateAppointment = () => {
+export const NewAppointment = () => {
     return (
-      <div className={style.REcontent}>
+    <div className={style.REcontent}>
         <div className={style.Header}>
             <Header/>
             </div>
@@ -35,11 +35,8 @@ export const CreateAppointment = () => {
         <div className={style.Footer}>
             <Footer/>
             </div>
-  </div>
-
-
-  
+    </div>
     )
-  }
+}
 
-  export default CreateAppointment
+export default NewAppointment

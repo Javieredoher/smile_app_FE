@@ -1,11 +1,10 @@
 import React from 'react'
-import style from "./infoField.module.css"
 
-function InfoField({value=''}) {
+function InfoField({value='', className=''}) {
   return (
     <>
         <p
-        className={style.Info}
+        className={className}
         >
         {value}
         </p>

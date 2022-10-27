@@ -86,3 +86,18 @@
     0.1em 0.2em 0.4em rgba(0,0,0,0.5);
     padding: 8px;
 }
+
+.LoginPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10vh;
+    height: 100%;
+}
+
+.Footer{
+width: 100%;
+align-items: bottom;
+margin-top: 35px;
+}

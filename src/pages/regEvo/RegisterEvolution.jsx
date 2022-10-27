@@ -4,8 +4,8 @@ import style from './reg.evolution.module.css'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
 import Title from '../../assets/styles/Title'
-import Fields from '../../components/newPatientForms/Fields'
-import Input from '../../components/newPatientForms/InputsForm'
+import Fields from '../../components/inputs/Fields'
+import Input from '../../components/inputs/InputsForm'
 import Button from '../../components/button/Button'
 
 export const RegisterEvolution = () => {

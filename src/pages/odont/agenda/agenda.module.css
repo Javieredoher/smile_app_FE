@@ -160,8 +160,7 @@
 .Footer{
     clear: both;
     position: sticky;
-    bottom: 0;
-
+    row-gap: 0;
 }
 
 
