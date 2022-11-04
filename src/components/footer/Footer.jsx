@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from './Footer.module.css'
+import styles from '../footer/Footer.module.css'
 
 function Footer() {
   return (
     <footer className='footer'> 
-    <div className='footer-info'>
+  <div className='footer-info'>
       <h1>smile here </h1>
     </div>
     <div className='footer contact'>
@@ -18,6 +18,7 @@ function Footer() {
  </div>
 
     </footer>
+
   )
 }
 

@@ -12,6 +12,7 @@ export const OdClinicalhistory = () => {
             <Content/>
           </div>
         <Footer/>
+        
     </div>
 
   )
