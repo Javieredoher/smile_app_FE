@@ -1,13 +1,13 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-
-import Login from '../pages/Login'
+import LoginForm from '../pages/login/LoginForm'
 import Appointments from '../pages/user/Appointments'
-import GeneralInformation from '../pages/odont/addNewPatient/GeneralInformation'
 import {Profile} from '../pages/user/Profile'
-import ClinicalModule from '../pages/profConv/ClinicalModule'
+import ClinicalModule from '../pages/profConv/PcClinicalModule'
 import OdClinicalModule from '../pages/odont/OdClinicalModule'
-import CreateAppointment from '../pages/odont/agenda/createAppointment'
+import CreateAppointment from '../pages/odont/agenda/NewAppointment'
+import RegisterEvolution from '../pages/regEvo/RegisterEvolution';
+import GeneralInformation from '../pages/odont/newPatient/GeneralInfo'
 
 const App = () => {
     return(
@@ -15,7 +15,7 @@ const App = () => {
             <Routes>
                 <Route 
                 exact path="/login"
-                element={<Login/>}
+                element={<LoginForm/>}
                 />
                 <Route 
                 exact path="/clinical-module"
@@ -32,7 +32,8 @@ const App = () => {
                 <Route 
                 exact path="/profile"
                 element={<Profile/>}
-                />                
+                />
+                
                 <Route 
                 exact path="/odont-clinical-module"
                 element={<OdClinicalModule/>}
@@ -40,6 +41,10 @@ const App = () => {
                 <Route 
                 exact path="/create-appointment-module"
                 element={<CreateAppointment/>}
+                />
+                <Route
+                exact path="/register-evolution"
+                element={<RegisterEvolution/>}
                 />
             </Routes>
         </Router>
