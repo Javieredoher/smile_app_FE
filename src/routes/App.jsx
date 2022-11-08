@@ -33,7 +33,6 @@ const App = () => {
                 exact path="/profile"
                 element={<Profile/>}
                 />
-                
                 <Route 
                 exact path="/odont-clinical-module"
                 element={<OdClinicalModule/>}

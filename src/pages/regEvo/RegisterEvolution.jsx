@@ -7,6 +7,7 @@ import Title from '../../assets/styles/Title'
 import Fields from '../../components/inputs/Fields'
 import Input from '../../components/inputs/InputsForm'
 import Button from '../../components/button/Button'
+import DropdownCUPS from './dropdown'
 
 export const RegisterEvolution = () => {
 return (
@@ -73,12 +74,8 @@ return (
             <div className={style.DivSubtitulo}>
                 <h3>PROCEDIMIENTO (CUPS)</h3>
                 </div>
-                <div className={style.DivEvoInput}>
-                    <textarea
-                    className={style.EvoInput}
-                    name="Evolution Input"
-                    placeholder=  "Describa nuevos avances en el proceso clínico del paciente"
-                    />
+                <div className={style.DivCUPS}>
+                    <DropdownCUPS className={style.DropdownCUPS}/>
                 </div>
             <div className={style.Footer}>
                 <Footer/>
