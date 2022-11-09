@@ -1,12 +1,12 @@
 import React from "react"
-import Title from "../../newPatientForms/Title"
-import Input from "../../newPatientForms/InputsForm"
-import style from "../../Home/odont/o.module.css"
-import Button from '../../button/Button'
+import Title from "../../../assets/styles/Title"
+import Input from "../../../components/inputs/InputsForm"
+import style from './id.evo.module.css'
+import Button from '../../../components/button/Button'
 import newDoc from '../../../assets/images/newDoc.png'
 
 
-function omodule() {
+function IdEvo() {
   
   return(
     <div className={style.Content}>
@@ -15,7 +15,7 @@ function omodule() {
         <img className={style.Img} src={newDoc} alt="Icon Register Evolution" />
       </div> 
       <div className={style.DivSubtitulo}>
-         <h3> Datos del paciente</h3>
+          <h3> Datos del paciente</h3>
       </div> 
       <div className={style.DivInputSearch}>
         <Input className={style.InputSearch} name="Search" placeholder=" Digite número de documento" label="Digite número de documento"/>
@@ -27,4 +27,4 @@ function omodule() {
 
     )
 }
-export default omodule
+export default IdEvo

@@ -5,9 +5,11 @@ import Appointments from '../pages/user/Appointments'
 import {Profile} from '../pages/user/Profile'
 import ClinicalModule from '../pages/profConv/PcClinicalModule'
 import OdClinicalModule from '../pages/odont/OdClinicalModule'
-import NewAppointment from '../pages/odont/agenda/NewAppointment'
-import RegisterEvolution from '../pages/regEvo/RegisterEvolution';
+import CreateAppointment from '../pages/odont/agenda/NewAppointment'
+import RegisterEvolution from '../pages/regEvo/RegisterEvolution'
 import GeneralInformation from '../pages/odont/newPatient/GeneralInfo'
+import SearchHC from '../pages/odont/searchHC/SearchHC'
+import IdEvo from '../pages/regEvo/idEvo/IdEvo'
 
 const App = () => {
     return(
@@ -39,19 +41,18 @@ const App = () => {
                 />
                 <Route 
                 exact path="/odont-clinical-consult"
-                element={<OdClinicalconsult/>}
+                element={<SearchHC/>}
                 />
-                 <Route 
+                <Route 
                 exact path="/odont-clinical-history"
-                element={<OdClinicalhistory/>}
+                element={<IdEvo/>}
                 />
                 <Route
                 exact path="/register-evolution"
                 element={<RegisterEvolution/>}
                 />
             </Routes>
-
         </Router>
     )
 }
-export default App;
+export default App

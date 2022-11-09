@@ -9,7 +9,7 @@ import Footer from "../../../components/footer/Footer"
 
 function GeneralInfo() {
 
- return (
+return (
   <div>
     <Header/>
     <div className={style.HomeContent}>

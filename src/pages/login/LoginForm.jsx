@@ -11,7 +11,7 @@ function LoginForm() {
     <Header/>
     <div className={style.LoginForm}>
           <h1 className={style.LoginTitle}>Iniciar Sesión</h1>
-          <form>
+          <form className={style.Form}>
             <div className={style.DivInput}>
               <h3>Usuario</h3>
               <Input className={style.Input}
