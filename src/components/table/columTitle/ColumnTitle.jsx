@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ColumnTitle() {
+function ColumnTitle({value='', className=''}) {
   return (
-    <div>ColumnTitle</div>
+    <th className={className}>{value} </th>
   )
 }
 

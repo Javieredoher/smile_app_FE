@@ -10,6 +10,7 @@ import RegisterEvolution from '../pages/regEvo/RegisterEvolution'
 import GeneralInformation from '../pages/odont/newPatient/GeneralInfo'
 import SearchHC from '../pages/odont/searchHC/SearchHC'
 import IdEvo from '../pages/regEvo/idEvo/IdEvo'
+import Anamnesis from '../pages/odont/newPatient/Anamnesis'
 
 const App = () => {
     return(
@@ -50,6 +51,10 @@ const App = () => {
                 <Route
                 exact path="/register-evolution"
                 element={<RegisterEvolution/>}
+                />
+                <Route
+                exact path="anamnesis-module"
+                element={<Anamnesis/>}
                 />
             </Routes>
         </Router>
