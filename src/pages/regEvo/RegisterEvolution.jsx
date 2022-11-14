@@ -76,6 +76,9 @@ return (
                 </div>
                 <div className={style.DivCUPS}>
                     <DropdownCUPS className={style.DropdownCUPS}/>
+                    <div className={style.Firmas}>
+                        <Fields/>
+                    </div>
                 </div>
             <div className={style.Footer}>
                 <Footer/>
