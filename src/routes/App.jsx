@@ -8,6 +8,7 @@ import OdClinicalModule from '../pages/odont/OdClinicalModule'
 import CreateAppointment from '../pages/odont/agenda/NewAppointment'
 import RegisterEvolution from '../pages/regEvo/RegisterEvolution';
 import GeneralInformation from '../pages/odont/newPatient/GeneralInfo'
+import Anamnesis from '../pages/odont/newPatient/Anamnesis';
 
 const App = () => {
     return(
@@ -45,6 +46,10 @@ const App = () => {
                 <Route
                 exact path="/register-evolution"
                 element={<RegisterEvolution/>}
+                />
+                <Route
+                exact path="anamnesis-module"
+                element={<Anamnesis/>}
                 />
             </Routes>
         </Router>

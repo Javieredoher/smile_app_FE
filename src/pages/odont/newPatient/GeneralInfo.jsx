@@ -42,6 +42,7 @@ function GeneralInfo() {
               <div className={style.DivData}>
                 <Fields className={style.Label} value='Tipo de documento'/>
                       <select className={style.Input2} name="TId" placeholder=" Seleccione" label="Seleccione">
+                          <option value="0">Seleccione</option>
                           <option value="CC">Cédula de ciudadanía</option>
                           <option value="CE">Cédula de extrajería</option>
                           <option value="RC">Registro Civil</option>
@@ -58,6 +59,7 @@ function GeneralInfo() {
                 <Input className={style.Input3} name="age" placeholder=" Edad" label="Edad"/>
                 <Fields className={style.Label} value='Estado civil'/>
                       <select className={style.Input3} name="ecivil" placeholder=" Seleccione" label="Seleccione">
+                          <option value="0">Seleccione</option>
                           <option value="Soltero">Soltero (a)</option>
                           <option value="Casado">Casado (a)</option>
                           <option value="Divorciado">Divorciado (a)</option>
@@ -65,6 +67,7 @@ function GeneralInfo() {
                       </select>
                 <Fields className={style.Label} value='Género'/>
                       <select className={style.Input3} name="genero" placeholder=" Seleccione" label="Seleccione">
+                          <option value="0">Seleccione</option>
                           <option value="Femenino">Femenino</option>
                           <option value="Masculino">Masculino</option>
                       </select>
@@ -82,6 +85,7 @@ function GeneralInfo() {
                 <Input className={style.Input2} name="barrio" placeholder=" Barrio" label="Barrio"/>
                 <Fields className={style.Label} value='Estrato'/>
                       <select className={style.Input3} name="estrato" placeholder=" Seleccione" label="Seleccione">
+                          <option value="0">Seleccione</option>
                           <option value="1">1</option>
                           <option value="2">2</option>
                           <option value="3">3</option>
@@ -100,6 +104,7 @@ function GeneralInfo() {
             <div className={style.DivData}>
                 <Fields className={style.Label} value='Régimen'/>
                       <select className={style.Input6} name="eps" placeholder=" Seleccione" label="Seleccione">
+                          <option value="0">Seleccione</option>
                           <option value="C">Contributivo</option>
                           <option value="S">Subsidiado</option>
                       </select>
@@ -113,6 +118,7 @@ function GeneralInfo() {
             <div className={style.DivData}>
                 <Fields className={style.Label} value='Parentesco'/>
                       <select className={style.Input} name="parentesco" placeholder=" Seleccione" label="Seleccione">
+                          <option value="0">Seleccione</option>
                           <option value="a">Esposo/Esposa</option>
                           <option value="b">Mamá/Papá</option>
                           <option value="c">Hermano/Hermana</option>
