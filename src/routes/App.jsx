@@ -10,6 +10,7 @@ import RegisterEvolution from '../pages/regEvo/RegisterEvolution'
 import GeneralInformation from '../pages/odont/newPatient/GeneralInfo'
 import SearchHC from '../pages/odont/searchHC/SearchHC'
 import IdEvo from '../pages/regEvo/idEvo/IdEvo'
+import DatesHC  from '../pages/odont/searchHC/datesHC'
 
 const App = () => {
     return(
@@ -40,16 +41,20 @@ const App = () => {
                 element={<OdClinicalModule/>}
                 />
                 <Route 
-                exact path="/odont-clinical-consult"
+                exact path="/odont-clinical-history"
                 element={<SearchHC/>}
                 />
                 <Route 
-                exact path="/odont-clinical-history"
+                exact path="/odont-clinical-consult"
                 element={<IdEvo/>}
                 />
                 <Route
                 exact path="/register-evolution"
                 element={<RegisterEvolution/>}
+                />
+                 <Route
+                exact path="/odont-dates-history"
+                element={<DatesHC/>}
                 />
             </Routes>
         </Router>
