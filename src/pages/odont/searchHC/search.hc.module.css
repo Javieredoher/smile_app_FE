@@ -1,89 +1,66 @@
-.Title {
-    font-weight: bold;
+.Label{
+    margin-right: 5px;
+    font-family: 'Lexend Deca';
 }
 
-.Content {
-    display: flex;
-    flex-direction: column;
+.Title {
     text-align: center;
-    justify-content: flex-start;
-    width: 60vw;
-    min-width: 360px;
-    max-width: 800px;
-    height: 72vh;
-    border-radius: 10px;
-    box-shadow: -1px 2px 6px grey;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .Img{
     height: 40px;
     width: 40px;
-
 }
 
 .DivTittle {
-    height: 6vh;
-    width: 58.8vw;
-    min-width: 360px;
-    max-width: 800px;
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.DivSubtitulo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.DivSubtitulo1 {
+    display: flex;
+    background-color: rgb(0, 0, 0);
     text-align: center;
     flex-direction: center;
-    margin-top: 6vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+}
 
-}
-.DivSubtitulo {
-    height: 5vh;
-    width: 58.8vw;
-    min-width:767px;
-    max-width: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 10vh;
-    color: white;
-    font-weight: bold;
-    box-shadow: -1px 2px 6px grey;
-}
-.DivSubtitulo {
-    height: 5vh;
-    width: 58.8vw;
-    min-width:767px;
-    max-width: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 10vh;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    box-shadow: -1px 2px 6px grey;
-}
 .DivInputSearch {
-    height: 15vh;
-    width: 58.8vw;
-    min-width: 360px;
-    max-width: 800px;
-    max-height: 100%;
+    width: 85vw;
+    min-width: 30vh;
     display: flex;
     align-items: center;
-    flex-direction: flex;
     justify-content: center;
     margin-top: 1vh;
-    box-shadow: -1px 2px 1px rgba(231, 229, 229, 0.671);
-
-
+    margin-block: 2vh;
+    margin-inline: 8vw;
+    flex-direction: row;
 }
 
 .InputSearch {
     height: 3.5vh;
     width: 70vw;
     min-width: 40px;
-    max-width: 600px;
+    max-width: 900px;
     max-height: 100%;
     border-radius: 9px;
     border-style: solid;
@@ -94,14 +71,13 @@
     background-color: #BCACAC;
     font-style: italic;
     box-shadow: -1px 1px 1px grey;
+    flex:right
 }
-
 
 .DivButton {
     display: flex;
     width: 90%;
     justify-content: flex-end;
-    background-color: yellow;
 }
 
 .ButtonCons {
@@ -120,4 +96,8 @@
 .ButtonCons:hover {
     cursor: pointer; 
     transform: scale(1.15);
+}
+
+.Footer{
+    clear: both;
 }

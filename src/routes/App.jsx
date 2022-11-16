@@ -9,8 +9,11 @@ import CreateAppointment from '../pages/odont/agenda/NewAppointment'
 import RegisterEvolution from '../pages/regEvo/RegisterEvolution'
 import SearchHC from '../pages/odont/searchHC/SearchHC'
 import IdEvo from '../pages/regEvo/idEvo/IdEvo'
+import DatesHC  from '../pages/odont/searchHC/datesHC'
+import Recoveremailpassword from '../pages/login/Recoveremailpassword'
+import Recovernewpassword from '../pages/login/Recovernewpassword'
+import Recoverpasswordcode from '../pages/login/Recoverpasswordcode'
 import NewPatient from '../pages/odont/newPat/newPatient'
-import Anamnesis from '../pages/odont/newPat/anamnesis/Anamnesis'
 
 const App = () => {
     return(
@@ -37,11 +40,11 @@ const App = () => {
                 element={<OdClinicalModule/>}
                 />
                 <Route 
-                exact path="/odont-clinical-consult"
+                exact path="/odont-clinical-history"
                 element={<SearchHC/>}
                 />
                 <Route 
-                exact path="/odont-clinical-history"
+                exact path="/odont-clinical-consult"
                 element={<IdEvo/>}
                 />
                 <Route
@@ -49,8 +52,20 @@ const App = () => {
                 element={<RegisterEvolution/>}
                 />
                 <Route
-                exact path="/anamnesis-module"
-                element={<Anamnesis/>}
+                exact path="/odont-dates-history"
+                element={<DatesHC/>}
+                />
+                <Route
+                exact path="/Recover-email-password"
+                element={<Recoveremailpassword/>}
+                />
+                <Route
+                exact path="/Recover-new-password"
+                element={<Recovernewpassword/>}
+                />
+                <Route
+                exact path="Recover-password-code"
+                element={<Recoverpasswordcode/>}
                 />
                 <Route
                 exact path="/new-patient"
