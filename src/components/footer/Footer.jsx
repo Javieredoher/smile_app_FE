@@ -1,11 +1,14 @@
 import React from 'react'
-import styles from './Footer.module.css'
+import styles from '../footer/Footer.module.css'
 
 function Footer() {
   return (
-    <footer>
-      Todos los derechos reservados
+    <footer className={styles.Footer}> 
+    <div className='footer-info'>
+        <h3>Smile Here</h3>
+    </div>
     </footer>
+
   )
 }
 

@@ -24,17 +24,15 @@
     height: 30px;
 }
 
-/*Datos personales*/
-
 .DivData{
     display: flex;
     min-height: fit-content;
     min-width: 30vh;
     margin-block: 2vh;
     margin-inline: 8vw;
+    justify-content: space-around space-between;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .Label{
@@ -42,7 +40,7 @@
     font-family: 'Lexend Deca';
 }
 
-.InfoField{
+.Input{
     float: left;
     width: 36.3vw;
     min-width: 160px;
@@ -53,10 +51,9 @@
     box-shadow: 5px;
     padding: 5px;
     justify-content: left;
-    margin: 0;
 }
 
-.IntField{
+.InputInt{
     float: left;
     width: 22vw;
     min-width: 160px;
@@ -67,7 +64,7 @@
     box-shadow: 5px;
     padding: 5px;
     justify-content: left;
-    margin: 0;
+    flex-wrap: wrap;
 }
 
 .Nombre{
@@ -77,17 +74,13 @@
     padding-inline: 4.5px;
     padding-block: 3px;
     flex-wrap: wrap;
-    height: 34px;
 }
-
-/*Evolución*/
 
 .DivEvoInput{
     min-height: fit-content;
     min-width: 30vh;
     margin-block: 2vh;
     margin-inline: 8vw;
-    justify-content: space-between;
 }
 
 .EvoInput{
@@ -101,6 +94,7 @@
     padding: 10px;
     overflow: auto;
     align-items: flex-end;
+    justify-content: baseline;
     font-family: 'Arimo';
     font-style: italic;
 }
@@ -110,6 +104,11 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 2vh;
+}
+
+.Button:hover {
+    cursor: pointer; 
+    transform: scale(1.15);
 }
 
 .Button{
@@ -125,97 +124,32 @@
     font-size: 15px;
 }
 
-.Button:hover {
-    cursor: pointer; 
-    transform: scale(1.15);
-}
-
-/*CUPS*/
-
 .DivCUPS{
     display: flex;
+    float: left;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-around space-between;
     align-items: center;
-    justify-content: space-between;
-}
-
-.DivDropdown{
-    display: flex;
     flex-wrap: wrap;
-    align-items: center;
     min-height: fit-content;
     min-width: 30vh;
     margin-block: 2vh;
     margin-inline: 8vw;
-    gap: 8px;
 }
 
-.Select{
+.DropdownCUPS {
     background-color: #5FCAD1;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 0;
+    font-family: 'Lexend Deca', sans-serif;
     color: white;
-    font-family: "Lexend Deca";
-    font-size: 15px;
     padding: 5px;
-    width: 150px;
-    height: 30px;
-}
-
-.Options{
-    background-color: rgb(240, 240, 240);
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
 }
 
 .h2{
-    float: right;
-    font-size: 13px;
-    width: 149.6vh;
-    border: 0;
-    border-radius: 8px;
-    background-color: rgb(240, 240, 240);
-    height: 4vh;
-    padding-inline: 7px;
-    padding-top: 6px;
-
-}
-
-/*Firmas*/
-
-.DivFirmas{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    flex-wrap: wrap;
-    min-width: 30vh;
-    margin-block: 2vh;
-    margin-inline: 8vw;
-}
-
-.Firmas{
-    border: 0;
-    border-radius: 13px;
-    background-color: rgb(214, 213, 213);
-    box-shadow: 5px;
-    padding: 5px;
-    margin: 0;
-    height: 60px;
-    width: auto;
-}
-
-.FirmasTexto{
-    color: rgb(0, 0, 0);
-    align-items: center;
-    font-family: 'Arimo';
-    font-size: small;
-    text-align: center;
-    margin-top: 3px;
-}
-
-.Paciente, .Odon{
-    width: 300px;
+    font-size: 15px;
 }
 
 .Footer{

@@ -1,8 +1,9 @@
-footer {
+.Footer {
     background-color: #5FCAD1;
-    min-height: 30px;
+    min-height: 40px;
     height: 5vh;
-    text-align: center;
     font-size: small;
     padding-top: 1.5vh;
+    bottom: 0;
+    align-items: center;
 }

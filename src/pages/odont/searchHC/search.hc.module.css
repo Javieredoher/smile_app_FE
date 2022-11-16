@@ -1,0 +1,103 @@
+.Label{
+    margin-right: 5px;
+    font-family: 'Lexend Deca';
+}
+
+.Title {
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Img{
+    height: 40px;
+    width: 40px;
+}
+
+.DivTittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.DivSubtitulo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(0, 0, 0);
+    height: 30px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.DivSubtitulo1 {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+}
+
+.DivInputSearch {
+    width: 85vw;
+    min-width: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-block: 2vh;
+    margin-inline: 8vw;
+    flex-direction: row;
+}
+
+.InputSearch {
+    height: 3.5vh;
+    width: 70vw;
+    min-width: 40px;
+    max-width: 900px;
+    max-height: 100%;
+    border-radius: 9px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: rgb(153, 152, 152);
+    display: flex;
+    margin-right: 1vh;
+    background-color: #BCACAC;
+    font-style: italic;
+    box-shadow: -1px 1px 1px grey;
+    flex:right
+}
+
+.DivButton {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+}
+
+.ButtonCons {
+    background-color: #5FCAD1;
+    border: 0;
+    border-radius: 3px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: white;
+    box-shadow:        
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+    0.1em 0.2em 0.4em rgba(0,0,0,0.5);
+    padding: 8px;
+}
+
+.ButtonCons:hover {
+    cursor: pointer; 
+    transform: scale(1.15);
+}
+
+.Footer{
+    clear: both;
+}
