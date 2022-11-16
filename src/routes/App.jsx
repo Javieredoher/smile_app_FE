@@ -11,7 +11,10 @@ import GeneralInformation from '../pages/odont/newPatient/GeneralInfo'
 import SearchHC from '../pages/odont/searchHC/SearchHC'
 import IdEvo from '../pages/regEvo/idEvo/IdEvo'
 import DatesHC  from '../pages/odont/searchHC/datesHC'
-
+import Anamnesis from '../pages/odont/newPatient/Anamnesis';
+import Recoveremailpassword from '../pages/login/Recoveremailpassword'
+import Recovernewpassword from '../pages/login/Recovernewpassword'
+import Recoverpasswordcode from '../pages/login/Recoverpasswordcode'
 const App = () => {
     return(
         <Router>
@@ -52,9 +55,27 @@ const App = () => {
                 exact path="/register-evolution"
                 element={<RegisterEvolution/>}
                 />
+
                  <Route
                 exact path="/odont-dates-history"
                 element={<DatesHC/>}
+                />
+                <Route
+                exact path="anamnesis-module"
+                element={<Anamnesis/>}
+
+                />
+                 <Route
+                exact path="/Recover-email-password"
+                element={<Recoveremailpassword/>}
+                />
+                <Route
+                exact path="/Recover-new-password"
+                element={<Recovernewpassword/>}
+                />
+                 <Route
+                exact path="Recover-password-code"
+                element={<Recoverpasswordcode/>}
                 />
             </Routes>
         </Router>
