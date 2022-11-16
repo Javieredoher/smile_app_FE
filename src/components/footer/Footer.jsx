@@ -4,19 +4,9 @@ import styles from '../footer/Footer.module.css'
 function Footer() {
   return (
     <footer className={styles.Footer}> 
-  <div className='footer-info'>
-      <h1>smile here </h1>
+    <div className='footer-info'>
+        <h3>Smile Here</h3>
     </div>
-    <div className='footer contact'>
-      <h1> Agosto 2022</h1>
-    </div>
-    <div className='footer-sns'>
-      <div className='design by'>
-      © Derechos reservado
-      </div>
-    
-  </div>
-
     </footer>
 
   )

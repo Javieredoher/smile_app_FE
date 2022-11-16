@@ -34,6 +34,7 @@
     margin-inline: 8vw;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .Label{
@@ -41,7 +42,7 @@
     font-family: 'Lexend Deca';
 }
 
-.Input{
+.InfoField{
     float: left;
     width: 36.3vw;
     min-width: 160px;
@@ -52,9 +53,10 @@
     box-shadow: 5px;
     padding: 5px;
     justify-content: left;
+    margin: 0;
 }
 
-.InputInt{
+.IntField{
     float: left;
     width: 22vw;
     min-width: 160px;
@@ -65,7 +67,7 @@
     box-shadow: 5px;
     padding: 5px;
     justify-content: left;
-    flex-wrap: wrap;
+    margin: 0;
 }
 
 .Nombre{
@@ -75,6 +77,7 @@
     padding-inline: 4.5px;
     padding-block: 3px;
     flex-wrap: wrap;
+    height: 34px;
 }
 
 /*Evolución*/
@@ -84,6 +87,7 @@
     min-width: 30vh;
     margin-block: 2vh;
     margin-inline: 8vw;
+    justify-content: space-between;
 }
 
 .EvoInput{
@@ -97,7 +101,6 @@
     padding: 10px;
     overflow: auto;
     align-items: flex-end;
-    justify-content: baseline;
     font-family: 'Arimo';
     font-style: italic;
 }
@@ -134,6 +137,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
 }
 
 .DivDropdown{
@@ -178,6 +182,41 @@
 
 }
 
+/*Firmas*/
+
+.DivFirmas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    min-width: 30vh;
+    margin-block: 2vh;
+    margin-inline: 8vw;
+}
+
+.Firmas{
+    border: 0;
+    border-radius: 13px;
+    background-color: rgb(214, 213, 213);
+    box-shadow: 5px;
+    padding: 5px;
+    margin: 0;
+    height: 60px;
+    width: auto;
+}
+
+.FirmasTexto{
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-family: 'Arimo';
+    font-size: small;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.Paciente, .Odon{
+    width: 300px;
+}
 
 .Footer{
     clear: both;
