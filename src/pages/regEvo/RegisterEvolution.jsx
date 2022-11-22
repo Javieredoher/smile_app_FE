@@ -5,8 +5,10 @@ import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
 import Title from '../../assets/styles/Title'
 import Fields from '../../components/inputs/Fields'
+import InfoField from '../../components/inputs/InfoField'
 import Input from '../../components/inputs/InputsForm'
 import Button from '../../components/button/Button'
+import DropdownCUPS from './dropdown'
 
 export const RegisterEvolution = () => {
 return (
@@ -26,35 +28,35 @@ return (
                         className={style.Label}
                         value="Nombre"
                         />
-                        <Input className={style.Input}/>
+                        <InfoField className={style.InfoField}/>
                     </div>
                     <div className={style.Nombre}>
                         <Fields 
                         className={style.Label}
                         value="Apellido"
                         />
-                        <Input className={style.Input}/>
+                        <InfoField className={style.InfoField}/>
                     </div>
                     <div className={style.Nombre}>
                         <Fields 
                         className={style.Label}
                         value="N° Documento"
                         />
-                        <Input className={style.InputInt}/>
+                        <InfoField className={style.IntField}/>
                     </div>
                     <div className={style.Nombre}>
                         <Fields 
                         className={style.Label}
                         value="Edad"
                         />
-                        <Input className={style.InputInt}/>
+                        <InfoField className={style.IntField}/>
                     </div>
                     <div className={style.Nombre}>
                         <Fields 
                         className={style.Label}
                         value="Celular"
                         />
-                        <Input className={style.InputInt}/>
+                        <InfoField className={style.IntField}/>
                     </div>
                 </div>
             <div className={style.DivSubtitulo}>
@@ -67,23 +69,30 @@ return (
                     placeholder=  "Describa nuevos avances en el proceso clínico del paciente"
                     />
                 </div>
-                <div className={style.DivButton}>
-                    <Button className={style.Button} value='Adjuntar archivos'/>
-                </div>
             <div className={style.DivSubtitulo}>
                 <h3>PROCEDIMIENTO (CUPS)</h3>
                 </div>
-                <div className={style.DivEvoInput}>
-                    <textarea
-                    className={style.EvoInput}
-                    name="Evolution Input"
-                    placeholder=  "Describa nuevos avances en el proceso clínico del paciente"
-                    />
+                <div className={style.DivCUPS}>
+                    <DropdownCUPS className={style.DropdownCUPS}/>
+                    <Fields/>
                 </div>
+            <div className={style.DivFirmas}>
+                <div className={style.Paciente}>
+                    <InfoField className={style.Firmas}/>
+                    <Fields className={style.FirmasTexto}
+                    value="Firma del paciente"/>
+                    </div>
+                    <div className={style.Odon}>
+                    <InfoField className={style.Firmas}/>
+                    <Fields className={style.FirmasTexto}
+                    value="Firma del odontólogo"/>
+                    </div>
+            </div>
             <div className={style.Footer}>
                 <Footer/>
                 </div>
         </div>
     )
 }
+
 export default RegisterEvolution

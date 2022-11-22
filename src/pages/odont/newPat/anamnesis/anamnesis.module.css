@@ -1,4 +1,3 @@
-
 .DivTitle{
     display: flex;
     align-items: center;
@@ -21,14 +20,6 @@
     justify-content: space-around;
 }
 
-
-
-.Img{
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-}
-
 .DivSubtitulo {
     display: flex;
     background-color: rgb(0, 0, 0);
@@ -38,8 +29,8 @@
     justify-content: center;
     color: white;
     height: 30px;
+    margin-top: 30px;
 }
-
 
 .Div{
     display: flex;
@@ -47,18 +38,12 @@
     align-items: center;    
     margin: 10px;
     flex-wrap: wrap;
-
 }
-
-
-
 
 .Table{
     flex-direction: center;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 7px;
-
-    
 }
 
 .Encabezado {
@@ -67,10 +52,7 @@
     height: 5vh;
     background-color: black;
     color: white;
-    border: 2px inset grey;
     border-radius: 3px;
-  
-    
 }
 
 .Encabezado2 {
@@ -79,26 +61,35 @@
     height: 5vh;
     background-color: black;
     color: white;
-    border: 2px inset grey;
     border-radius: 3px;
-
-    
 }
 
 .Celda {
     text-align: left;
     width: 50vw;
-    border: 2px inset grey;
-    background-color: azure;
+    background-color: rgb(240, 240, 240);
     border-radius: 3px;
+    height: 4vh;
     
+}
+
+.Observaciones{
+    width: 60.3vw;
+    min-height: 10vh;
+    height: 13vh;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+    display: flex;
+    min-width: 240.5px;
+    float: right;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .Celda2 {
     text-align: center;
     width: 5vw;
-    border: 2px inset grey;
-    background-color: azure;
+    background-color: rgb(240, 240, 240);
     border-radius: 3px;    
 }
 
@@ -113,21 +104,28 @@
 
 
 .Input {
-    width: 55vw;
-    min-width: 150px;
-    height: 5vh;
+    width: 64vw;
+    min-width: 200px;
     border: 0;
     border-radius: 8px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(209, 209, 209);
     box-shadow: 5px;
-    margin-left: 155px;
-    margin-bottom: 5px;
-
+    margin: 5px;
+    padding: 6px;
+    resize: none;
+    flex-direction: row;
+    float: right;
 }
 
-.Label{
+.Label, .LabelObv{
     margin-left: 4px;
     font-family: 'Lexend Deca';
+    align-items: center;
+}
+
+.LabelObv{
+    height: 5px;
+    margin-top: 4px;
 }
 
 .Radio{
@@ -146,7 +144,6 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 

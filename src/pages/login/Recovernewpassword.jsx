@@ -1,37 +1,37 @@
 import React from 'react'
-import style from "./loginForm.module.css"
+import style from "./Recovernewpassword.module.css"
 import Input from '../../components/inputs/InputsForm'
 import Button from '../../components/button/Button'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
 
-function LoginForm() {
+function  Recovernewpassword() {
   return (
     <div className={style.LoginPage}>
     <Header/>
     <div className={style.LoginForm}>
-          <h1 className={style.LoginTitle}>Iniciar Sesión</h1>
+          <h1 className={style.LoginTitle}>Recuperar contraseña</h1>
           <form className={style.Form}>
             <div className={style.DivInput}>
-              <h3>Usuario</h3>
+              <h3>Nueva contraseña</h3>
               <Input className={style.Input}
-              label = 'Ingrese su usuario'
-              placeholder= 'Ingrese su usuario'
-              name = 'user'
+              label = 'Nueva contraseña'
+              placeholder= 'Nueva contraseña'
+              name = 'Contraseña'
               />
             </div>
             <div className={style.DivInput}>
-              <h3>Contraseña</h3>
+              <h3>Verifica nueva contraseña</h3>
               <Input className={style.Input}
-              label = 'Ingrese su contraseña'
-              placeholder= 'Ingrese su contraseña'
+              label = ''
+              placeholder= 'verificacion'
               name = 'password'
               />
             </div>
           </form>
-          <i className={style.Forgot}>¿Olvidaste la contraseña?</i>
+        
           <div className={style.DivButton}>
-            <Button className={style.ButtonInput} value='Ingresar'/>
+            <Button className={style.ButtonInput} value='Confirmar'/>
           </div>
     </div>
     <div className={style.Footer}>
@@ -41,4 +41,4 @@ function LoginForm() {
   )
 }
 
-export default LoginForm
+export default  Recovernewpassword

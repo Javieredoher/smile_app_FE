@@ -13,7 +13,7 @@ const Appointments = () => {
     <div>
         <Header/>
         <div className={style.HomeContent}>
-          {/* <Menu/> */}
+          <Menu/>
           <Home/>
         </div>
         <Footer/>
