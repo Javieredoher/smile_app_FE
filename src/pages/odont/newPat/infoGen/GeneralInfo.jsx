@@ -16,15 +16,15 @@ return (
               <Input className={style.InputAlert} name="Alert" placeholder=" Describa afecciones importantes del paciente" label="Alert"/>
             </div>
             <div className={style.DivData}>
-                <Fields className={style.Label1} value='Primer Apellido'/>
+                <Fields className={style.Label} value='Primer Apellido'/>
                 <Input className={style.Input} name="firstSurname" placeholder=" Primer Apellido" label="1er Apellido" />
-                <Fields className={style.Label1} value='Segundo Apellido'/>
+                <Fields className={style.Label} value='Segundo Apellido'/>
                 <Input className={style.Input} name="secondSurname" placeholder=" Segundo Apellido" label="2do Apellido"/>
             </div>
             <div className={style.DivData}>
-                <Fields className={style.Label1} value='Primer Nombre'/>
+                <Fields className={style.Label} value='Primer Nombre'/>
                 <Input className={style.Input} name="firtsname" placeholder=" Primer nombre" label="1er nombre"/>
-                <Fields className={style.Label1} value='Segundo Nombre'/>
+                <Fields className={style.Label} value='Segundo Nombre'/>
                 <Input className={style.Input} name="secondname" placeholder=" Segundo nombre" label="2do nombre"/>
             </div>
               <div className={style.DivData}>
@@ -43,7 +43,7 @@ return (
               <div className={style.DivData}>
                 <Fields className={style.Label} value='Fecha de Nacimiento'/>
                 <Input className={style.Input2} type="date" name="dateofbirth" placeholder=" dd/mm/aaaa" label="dd/mm/aaaa"/>
-                <Fields className={style.Label1} value='Edad'/>
+                <Fields className={style.Label} value='Edad'/>
                 <Input className={style.Input3} name="age" placeholder=" Edad" label="Edad"/>
                 <Fields className={style.Label} value='Estado civil'/>
                       <select className={style.Input3} name="ecivil" placeholder=" Seleccione" label="Seleccione">
@@ -61,15 +61,15 @@ return (
                       </select>
             </div>
             <div className={style.DivData}>
-                <Fields className={style.Label1} value='Teléfono Fijo'/>
+                <Fields className={style.Label} value='Teléfono Fijo'/>
                 <Input className={style.Input} name="landlinenumber" placeholder=" Número tel fijo" label="Tel fijo"/>
-                <Fields className={style.Label1} value='Número celular'/>
+                <Fields className={style.Label} value='Número celular'/>
                 <Input className={style.Input} name="cellphonenumber" placeholder=" Número de celular" label="Número celular"/>
             </div> 
             <div className={style.DivData}>
-                <Fields className={style.Label1} value='Dirección'/>
+                <Fields className={style.Label} value='Dirección'/>
                 <Input className={style.Input4} name="direction" placeholder=" Dirección de domicilio" label="Dirección domicilio"/>
-                <Fields className={style.Label1} value='Barrio'/>
+                <Fields className={style.Label} value='Barrio'/>
                 <Input className={style.Input2} name="barrio" placeholder=" Barrio" label="Barrio"/>
                 <Fields className={style.Label} value='Estrato'/>
                       <select className={style.Input3} name="estrato" placeholder=" Seleccione" label="Seleccione">
@@ -84,9 +84,9 @@ return (
                 
             </div>
             <div className={style.DivData}>
-                <Fields className={style.Label1} value='Ocupación'/>
+                <Fields className={style.Label} value='Ocupación'/>
                 <Input className={style.Input6} name="ocupation" placeholder=" Ocupación" label="Ocupación"/>
-                <Fields className={style.Label1} value='Empresa'/>
+                <Fields className={style.Label} value='Empresa'/>
                 <Input className={style.Input6} name="company" placeholder=" Empresa" label="Empresa"/>
             </div>
             <div className={style.DivData}>
@@ -100,7 +100,7 @@ return (
                 <Input className={style.Input6} name="epsname" placeholder=" Seleccione" label="Seleccione"/>
             </div>
             <div className={style.DivData}>
-                <Fields className={style.Label1} value='Acudiente o acompañante'/>
+                <Fields className={style.Label} value='Acudiente o acompañante'/>
                 <Input className={style.Input5} name="acudiente" placeholder=" Nombre acudiente o acompañante" label="Nombre acudiente"/>
             </div>
             <div className={style.DivData}>

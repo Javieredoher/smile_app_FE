@@ -48,7 +48,7 @@
 
 .Encabezado {
     text-align: center;
-    width: 50vw;
+    width: 60vw;
     height: 5vh;
     background-color: black;
     color: white;
@@ -74,7 +74,7 @@
 }
 
 .Observaciones{
-    width: 60.3vw;
+    width: 70.3vw;
     min-height: 10vh;
     height: 13vh;
     background-color: rgb(240, 240, 240);
@@ -94,17 +94,9 @@
 }
 
 
-.Celda3 {
-    width: 66vw;
-    border: 2px inset grey;
-    background-color: azure;
-    border-radius: 3px;
-    display:flex;
-}
-
 
 .Input {
-    width: 64vw;
+    width: 70vw;
     min-width: 200px;
     border: 0;
     border-radius: 8px;

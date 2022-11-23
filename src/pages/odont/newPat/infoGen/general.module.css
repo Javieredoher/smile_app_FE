@@ -52,10 +52,11 @@
     margin-inline: 8vw;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
-.Label1{
+.Label{
     margin-right: 1px;
     margin-left: 1px;
     font-family: 'Lexend Deca';
@@ -78,20 +79,6 @@
 
 
 
-
-/*Estilos contenedores de campos y nombres de campos*/
-
-.DivInputs {
-    display: flex;
-    min-height: fit-content;
-    min-width: 30vh;
-    margin-block: 2vh;
-    margin-inline: 8vw;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: aqua;
-}
 
 
 
@@ -182,4 +169,9 @@
 body {
     background-color: lightgreen;
   }
+.DivData{
+    flex-direction: column;
+
+
+}  
 }

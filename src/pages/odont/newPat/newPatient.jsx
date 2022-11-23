@@ -8,6 +8,8 @@ import GeneralInfo from './infoGen/GeneralInfo'
 import Anamnesis from './anamnesis/Anamnesis'
 import newPatient from '../../../assets/images/newPatient.png'
 import Button from '../../../components/button/Button'
+import Habits from './habits/Habits'
+
 
 export const NewPatient = () => {
 return (
@@ -21,6 +23,7 @@ return (
             </div>
             <GeneralInfo/>
             <Anamnesis/>
+            <Habits/>
         <div className={style.DivButtons}>
             <Button className={style.Button} value='Anterior'/>
             <Button className={style.Button} value='Siguiente'/>
