@@ -5,7 +5,6 @@ import Appointments from '../pages/user/Appointments'
 import {Profile} from '../pages/user/Profile'
 import ClinicalModule from '../pages/profConv/PcClinicalModule'
 import OdClinicalModule from '../pages/odont/OdClinicalModule'
-import CreateAppointment from '../pages/odont/agenda/NewAppointment'
 import RegisterEvolution from '../pages/regEvo/RegisterEvolution'
 import SearchHC from '../pages/odont/searchHC/SearchHC'
 import IdEvo from '../pages/regEvo/idEvo/IdEvo'
@@ -14,6 +13,7 @@ import Recoveremailpassword from '../pages/login/Recoveremailpassword'
 import Recovernewpassword from '../pages/login/Recovernewpassword'
 import Recoverpasswordcode from '../pages/login/Recoverpasswordcode'
 import NewPatient from '../pages/odont/newPat/newPatient'
+import Examen from '../pages/odont/newPat/examen/examen'
 
 const App = () => {
     return(
@@ -70,6 +70,10 @@ const App = () => {
                 <Route
                 exact path="/new-patient"
                 element={<NewPatient/>}
+                />
+                <Route
+                exact path="/examen"
+                element={<Examen/>}
                 />
             </Routes>
         </Router>

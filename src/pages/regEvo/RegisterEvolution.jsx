@@ -6,8 +6,6 @@ import Footer from '../../components/footer/Footer'
 import Title from '../../assets/styles/Title'
 import Fields from '../../components/inputs/Fields'
 import InfoField from '../../components/inputs/InfoField'
-import Input from '../../components/inputs/InputsForm'
-import Button from '../../components/button/Button'
 import DropdownCUPS from './dropdown'
 
 export const RegisterEvolution = () => {

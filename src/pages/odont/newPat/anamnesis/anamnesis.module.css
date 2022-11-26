@@ -41,7 +41,6 @@
 }
 
 .Table{
-    flex-direction: center;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 7px;
 }
@@ -66,15 +65,14 @@
 
 .Celda {
     text-align: left;
-    width: 50vw;
+    width: 56vw;
     background-color: rgb(240, 240, 240);
     border-radius: 3px;
     height: 4vh;
-    
 }
 
 .Observaciones{
-    width: 60.3vw;
+    width: 66.2vw;
     min-height: 10vh;
     height: 13vh;
     background-color: rgb(240, 240, 240);
@@ -104,7 +102,7 @@
 
 
 .Input {
-    width: 64vw;
+    width: 100%;
     min-width: 200px;
     border: 0;
     border-radius: 8px;

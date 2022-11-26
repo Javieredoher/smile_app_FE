@@ -50,7 +50,6 @@
     border: 0;
     border-radius: 8px;
     background-color: rgb(240, 240, 240);
-    box-shadow: 5px;
     padding: 5px;
     justify-content: left;
     margin: 0;
@@ -94,7 +93,6 @@
     border: 0;
     border-radius: 8px;
     background-color: rgb(240, 240, 240);
-    box-shadow: 5px;
     resize: none;
     height: 15vh;
     width: 83vw;
@@ -102,7 +100,6 @@
     overflow: auto;
     align-items: flex-end;
     font-family: 'Arimo';
-    font-style: italic;
 }
 
 .DivButton{

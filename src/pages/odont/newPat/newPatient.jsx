@@ -8,6 +8,7 @@ import GeneralInfo from './infoGen/GeneralInfo'
 import Anamnesis from './anamnesis/Anamnesis'
 import newPatient from '../../../assets/images/newPatient.png'
 import Button from '../../../components/button/Button'
+import Enfermedad from './enfermedad/Enfermedad'
 
 export const NewPatient = () => {
 return (
@@ -20,6 +21,7 @@ return (
             <img className={style.Img} src={newPatient} alt="Icon Nuevo Paciente"/>   
             </div>
             <GeneralInfo/>
+            <Enfermedad/>
             <Anamnesis/>
         <div className={style.DivButtons}>
             <Button className={style.Button} value='Anterior'/>
