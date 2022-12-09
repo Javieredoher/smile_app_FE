@@ -6,8 +6,6 @@ import Footer from '../../components/footer/Footer'
 import Title from '../../assets/styles/Title'
 import Fields from '../../components/inputs/Fields'
 import InfoField from '../../components/inputs/InfoField'
-import Input from '../../components/inputs/InputsForm'
-import Button from '../../components/button/Button'
 import DropdownCUPS from './dropdown'
 
 export const RegisterEvolution = () => {
@@ -29,8 +27,6 @@ return (
                         value="Nombre"
                         />
                         <InfoField className={style.InfoField}/>
-                    </div>
-                    <div className={style.Nombre}>
                         <Fields 
                         className={style.Label}
                         value="Apellido"
@@ -43,15 +39,11 @@ return (
                         value="N° Documento"
                         />
                         <InfoField className={style.IntField}/>
-                    </div>
-                    <div className={style.Nombre}>
                         <Fields 
                         className={style.Label}
                         value="Edad"
                         />
                         <InfoField className={style.IntField}/>
-                    </div>
-                    <div className={style.Nombre}>
                         <Fields 
                         className={style.Label}
                         value="Celular"

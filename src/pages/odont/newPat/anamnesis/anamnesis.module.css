@@ -41,14 +41,13 @@
 }
 
 .Table{
-    flex-direction: center;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 7px;
 }
 
 .Encabezado {
     text-align: center;
-    width: 60vw;
+    width: 50vw;
     height: 5vh;
     background-color: black;
     color: white;
@@ -70,11 +69,10 @@
     background-color: rgb(240, 240, 240);
     border-radius: 3px;
     height: 4vh;
-    
 }
 
 .Observaciones{
-    width: 70.3vw;
+    width: 60.3vw;
     min-height: 10vh;
     height: 13vh;
     background-color: rgb(240, 240, 240);
@@ -96,7 +94,7 @@
 
 
 .Input {
-    width: 70vw;
+    width: 64vw;
     min-width: 200px;
     border: 0;
     border-radius: 8px;

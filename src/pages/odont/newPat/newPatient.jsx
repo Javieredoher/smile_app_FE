@@ -9,6 +9,10 @@ import Anamnesis from './anamnesis/Anamnesis'
 import newPatient from '../../../assets/images/newPatient.png'
 import Button from '../../../components/button/Button'
 import Habits from './habits/Habits'
+import Enfermedad from './enfermedad/Enfermedad'
+import Examen from './examen/Examen'
+import Diagnostico from './diagnostico/Diagnostico'
+import Consent from './consentimiento/Consent'
 
 
 export const NewPatient = () => {
@@ -22,8 +26,12 @@ return (
             <img className={style.Img} src={newPatient} alt="Icon Nuevo Paciente"/>   
             </div>
             <GeneralInfo/>
+            <Enfermedad/>
             <Anamnesis/>
+            <Examen/>
             <Habits/>
+            <Diagnostico/>
+            <Consent/>
         <div className={style.DivButtons}>
             <Button className={style.Button} value='Anterior'/>
             <Button className={style.Button} value='Siguiente'/>
