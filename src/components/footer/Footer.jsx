@@ -12,7 +12,7 @@ function Footer() {
     </div>
     <div className='footer-sns'>
       <div className='design by'>
-      © Derechos reservado
+      <h1>© Derechos reservados</h1>
       </div>
     
   </div>
