@@ -27,8 +27,6 @@ return (
                         value="Nombre"
                         />
                         <InfoField className={style.InfoField}/>
-                    </div>
-                    <div className={style.Nombre}>
                         <Fields 
                         className={style.Label}
                         value="Apellido"
@@ -41,15 +39,11 @@ return (
                         value="N° Documento"
                         />
                         <InfoField className={style.IntField}/>
-                    </div>
-                    <div className={style.Nombre}>
                         <Fields 
                         className={style.Label}
                         value="Edad"
                         />
                         <InfoField className={style.IntField}/>
-                    </div>
-                    <div className={style.Nombre}>
                         <Fields 
                         className={style.Label}
                         value="Celular"

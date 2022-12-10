@@ -44,7 +44,7 @@
 
 .InfoField{
     float: left;
-    width: 36.3vw;
+    width: 33.6vw;
     min-width: 160px;
     height: 4vh;
     border: 0;
@@ -57,7 +57,7 @@
 
 .IntField{
     float: left;
-    width: 22vw;
+    width: 20vw;
     min-width: 160px;
     height: 4vh;
     border: 0;
@@ -67,6 +67,8 @@
     padding: 5px;
     justify-content: left;
     margin: 0;
+    margin-left: 1px;
+    margin-right: 3px;
 }
 
 .Nombre{
@@ -77,6 +79,7 @@
     padding-block: 3px;
     flex-wrap: wrap;
     height: 34px;
+    justify-content: space-between;
 }
 
 /*Evolución*/
@@ -95,7 +98,7 @@
     background-color: rgb(240, 240, 240);
     resize: none;
     height: 15vh;
-    width: 83vw;
+    width: 80vw;
     padding: 10px;
     overflow: auto;
     align-items: flex-end;

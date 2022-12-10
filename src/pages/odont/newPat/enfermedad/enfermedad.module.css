@@ -22,7 +22,8 @@
 }
 
 .Input{
-    border: 0;
+    border: 0.2;
+    border-color: rgb(214, 214, 214);
     border-radius: 8px;
     background-color: rgb(240, 240, 240);
     resize: none;
@@ -94,5 +95,5 @@
 }
 
 .Table{
-    width: 66vw;
+    width: 61vw;
 }

@@ -13,7 +13,6 @@ import Recoveremailpassword from '../pages/login/Recoveremailpassword'
 import Recovernewpassword from '../pages/login/Recovernewpassword'
 import Recoverpasswordcode from '../pages/login/Recoverpasswordcode'
 import NewPatient from '../pages/odont/newPat/newPatient'
-import Examen from '../pages/odont/newPat/examen/examen'
 
 const App = () => {
     return(
@@ -70,10 +69,6 @@ const App = () => {
                 <Route
                 exact path="/new-patient"
                 element={<NewPatient/>}
-                />
-                <Route
-                exact path="/examen"
-                element={<Examen/>}
                 />
             </Routes>
         </Router>
