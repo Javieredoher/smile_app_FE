@@ -1,11 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import LoginForm from '../pages/login/LoginForm'
-import Appointments from '../pages/user/Appointments'
 import {Profile} from '../pages/user/Profile'
 import ClinicalModule from '../pages/profConv/PcClinicalModule'
 import OdClinicalModule from '../pages/odont/OdClinicalModule'
-import CreateAppointment from '../pages/odont/agenda/NewAppointment'
 import RegisterEvolution from '../pages/regEvo/RegisterEvolution'
 import SearchHC from '../pages/odont/searchHC/SearchHC'
 import IdEvo from '../pages/regEvo/idEvo/IdEvo'
@@ -26,10 +24,6 @@ const App = () => {
                 <Route 
                 exact path="/clinical-module"
                 element={<ClinicalModule/>}
-                />
-                <Route 
-                exact path="/appointments"
-                element={<Appointments/>}
                 />
                 <Route 
                 exact path="/profile"
@@ -56,15 +50,15 @@ const App = () => {
                 element={<DatesHC/>}
                 />
                 <Route
-                exact path="/Recover-email-password"
+                exact path="/recover-email-password"
                 element={<Recoveremailpassword/>}
                 />
                 <Route
-                exact path="/Recover-new-password"
+                exact path="/recover-new-password"
                 element={<Recovernewpassword/>}
                 />
                 <Route
-                exact path="Recover-password-code"
+                exact path="/recover-password-code"
                 element={<Recoverpasswordcode/>}
                 />
                 <Route

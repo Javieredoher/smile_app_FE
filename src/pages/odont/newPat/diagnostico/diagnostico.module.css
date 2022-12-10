@@ -1,0 +1,157 @@
+
+.Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 10px;
+    flex-wrap: nowrap;
+
+}
+
+
+.DivSubtitulo {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.Title {
+    text-align: center;
+    font-size: medium;
+    font-weight: 300;
+    justify-content: space-around;
+}
+
+
+
+.Table{
+    flex-direction: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    flex-wrap: wrap;
+    width: 30vw;
+}
+
+.Encabezado {
+    text-align: center;
+    width: 35vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+.Encabezado2 {
+    text-align: center;
+    width: 3vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+.Label{
+    font-family: 'Lexend Deca';
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400 ;
+}
+
+.Celda {
+    text-align: left;
+    width: 35vw;
+    height: 8vh;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;   
+    justify-content: space-around;
+}
+
+.Subtitulo{
+    text-align: left;
+    width: 30vw;
+    height: 5vh;
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
+}
+
+.Input3 {
+    width: 27vw;
+    min-width: 40px;
+    height: 5vh;
+    border-radius: 8px;
+    background-color: rgb(219, 219, 219);
+    padding: 5px;
+    font-family: 'Lexend Deca';
+    font-size: 13px;
+}
+
+.DivInput{
+    min-height: fit-content;
+    min-width: 30vh;
+    margin-block: 2vh;
+    margin-inline: 8vw;
+    justify-content: space-between;
+}
+
+.Input2{
+    border: 0.2;
+    border-color: rgb(214, 214, 214);
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    resize: none;
+    height: 15vh;
+    width: 83vw;
+    padding: 10px;
+    overflow: auto;
+    align-items: flex-end;
+    font-family: 'Arimo';
+}
+
+/*OPCIONES CIE10*/
+
+.DivCIE{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DivDropdown{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: fit-content;
+    min-width: 30vh;
+    margin-block: 2vh;
+    margin-inline: 8vw;
+    gap: 8px;
+}
+
+.Select{
+    background-color: #5FCAD1;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    padding: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+.Options{
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

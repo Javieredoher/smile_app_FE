@@ -1,5 +1,4 @@
 import React from "react"
-
 import Title from "../../../assets/styles/Title"
 import Input from "../../../components/inputs/InputsForm"
 import style from './id.evo.module.css'
@@ -10,9 +9,7 @@ import Footer from "../../../components/footer/Footer"
 
 
 function IdEvo() {
-  
   return(
-    
     <div className={style.Content}>
       <div className={style.Header}>
                 <Header/>
@@ -32,9 +29,6 @@ function IdEvo() {
                 <Footer/>
                 </div>
     </div>
-        
-
-
     )
 }
 export default IdEvo
