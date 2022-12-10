@@ -10,7 +10,7 @@ import newPatient from '../../../assets/images/newPatient.png'
 import Button from '../../../components/button/Button'
 import Habits from './habits/Habits'
 import Enfermedad from './enfermedad/Enfermedad'
-import Examen from './examen/Examen'
+import Examen from './examen/Examen1'
 import Diagnostico from './diagnostico/Diagnostico'
 import Consent from './consentimiento/Consent'
 
