@@ -13,12 +13,6 @@
     margin-top: 30px;
 }
 
-.Table{
-    flex-direction: center;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 7px;
-}
-
 .Title{
     text-align: center;
     font-size: medium;
@@ -29,7 +23,7 @@
 
 .Encabezado {
     text-align: center;
-    width: 33vw;
+    width: 25vw;
     height: 5vh;
     background-color: black;
     color: white;
@@ -46,14 +40,21 @@
     border-radius: 3px;
 }
 
-.Celda, .Celda2 {
+.Celda {
     text-align: left;
     background-color: rgb(240, 240, 240);
     border-radius: 3px;
     height: 4vh;
 }
 
-.Label {
+.Celda2 {
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+    height: 4vh;
+}
+
+.Label, .LabelObv {
     margin-left: 4px;
     font-family: 'Lexend Deca';
     align-items: center;
@@ -61,10 +62,50 @@
 
 .DivTable{
     min-height: fit-content;
+    width: 53vh;
+}
+
+.Tables{
+    display: flex;
+    flex-direction: row;
+    min-height: fit-content;
     min-width: 30vh;
     margin-block: 2vh;
     margin-inline: 8vw;
-    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    flex-wrap: wrap; 
+}
+
+.Table{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Observaciones{
+    width: 66.2vw;
+    min-height: 10vh;
+    height: 13vh;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+    display: flex;
+    min-width: 240.5px;
+    float: right;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Input {
+    width: 100%;
+    min-width: 200px;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(136, 16, 16);
+    box-shadow: 5px;
+    margin: 5px;
+    padding: 6px;
+    resize: none;
+    flex-direction: row;
+    float: right;
 }
