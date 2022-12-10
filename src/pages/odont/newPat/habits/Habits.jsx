@@ -3,10 +3,6 @@ import style from './habits.module.css'
 import Title from '../../../../assets/styles/Title'
 import Fields from '../../../../components/inputs/Fields'
 
-
-
-
-
 export const Habits = () =>  {
     return(
       <div className={style.REcontent}>
@@ -22,23 +18,23 @@ export const Habits = () =>  {
                 </tr>
                 <tr>
                   <td className={style.Celda}><Fields className={style.Label} value='¿Ha tenido limitación al abrir o cerrar la boca?'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a1'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a1'/></td>
                 </tr>
                 <tr>
                   <td className={style.Celda}><Fields className={style.Label} value='¿Siente ruidos en la mandíbula al abrir o cerrar?'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a2y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a2n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a2'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a2'/></td>
                 </tr>
                 <tr>   
                   <td className={style.Celda}><Fields className={style.Label} value='¿Sufre de herpes o aftas recurrentes?'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a3y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a3n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a3'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a3'/></td>
                 </tr> 
                 <tr>  
                   <td className={style.Celda}><Fields className={style.Label} value='¿Ha presentado reacción alérgica a la anestesia?'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a4y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a4n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a4'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a4'/></td>
                 </tr>
                 <tr>
                   <td colSpan={3} className={style.Celda3}>
@@ -65,8 +61,8 @@ export const Habits = () =>  {
                           <option value="b">más de 3</option>
                       </select>                  
                   </td>
-                  <td className={style.Celda2}><input type="radio" name='a1y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a5'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a5'/></td>
                 </tr>
                 <tr>
                   <td className={style.Celda}>
@@ -78,8 +74,8 @@ export const Habits = () =>  {
                           <option value="b">más de 3</option>
                       </select>
                     </td>
-                  <td className={style.Celda2}><input type="radio" name='a1y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a6'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a6'/></td>
                 </tr>
                 <tr>
                   <td className={style.Celda}>
@@ -91,8 +87,8 @@ export const Habits = () =>  {
                           <option value="b">más de 3</option>
                       </select>
                     </td>
-                  <td className={style.Celda2}><input type="radio" name='a1y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a7'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a7'/></td>
                 </tr>
                 <tr>
                   <th colSpan={3} className={style.Subtitulo}>
@@ -101,20 +97,20 @@ export const Habits = () =>  {
                 <tr>
                   <td className={style.Celda}>
                     <Fields className={style.Label} value='¿Morderse las uñas o los labios? Onicofagia - Queilofagia'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a8'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a8'/></td>
                 </tr>
                 <tr>
                   <td className={style.Celda}>
                     <Fields className={style.Label} value='¿Respirador oral o respirador mixto?'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a9'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a9'/></td>
                 </tr>
                 <tr>
                   <td className={style.Celda}>
                     <Fields className={style.Label} value='¿Succión digital o succión labial?'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a10'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a10'/></td>
                 </tr>
                 <tr>
                   <td className={style.Celda}>
@@ -125,34 +121,28 @@ export const Habits = () =>  {
                           <option value="b">más de 10</option>
                       </select>
                     </td>
-                  <td className={style.Celda2}><input type="radio" name='a1y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a11'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a11'/></td>
                 </tr>
                 <tr>
                   <td className={style.Celda}>
                     <Fields className={style.Label} value='¿Consume alimentos cítricos?'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a12'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a12'/></td>
                 </tr>
-                 <tr>
+                <tr>
                   <td className={style.Celda}>
                     <Fields className={style.Label} value='¿Muerde objetos con los dientes?'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a13'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a13'/></td>
                 </tr>
                 <tr>
                   <td className={style.Celda}>
                     <Fields className={style.Label} value='¿Aprieta o bruxa los dientes?'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1y'/></td>
-                  <td className={style.Celda2}><input type="radio" name='a1n'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a14'/></td>
+                  <td className={style.Celda2}><input type="radio" name='a14'/></td>
                 </tr>
-
               </table>
-
-
-
-
-
             </div>
       </div>
       )

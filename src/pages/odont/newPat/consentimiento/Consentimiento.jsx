@@ -7,6 +7,7 @@ import InfoField from '../../../../components/inputs/InfoField'
 
 export const Consentimiento = () =>  {
     return(
+    
         <div className={style.Div}>
             <Fields className={style.Label}
                 value="Yo"
@@ -42,10 +43,7 @@ export const Consentimiento = () =>  {
                 tratamiento más conveniente, previa explicación del pro y los contra de dicho tratamiento 
                 para el paciente."
             />
-
         </div>
-
-      )
-  }
-  
-  export default Consentimiento
+)
+}
+export default Consentimiento

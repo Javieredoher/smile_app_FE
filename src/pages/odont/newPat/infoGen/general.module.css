@@ -17,16 +17,11 @@
     justify-content: space-around;
 }
 
-
-
 .Img{
     height: 40px;
     width: 40px;
     margin-left: 10px;
 }
-
-
-
 
 /*I. Información general*/
 
@@ -66,7 +61,7 @@
 
 .InputAlert{
     float: left;
-    width: 72.5vw;
+    width: 100vw;
     min-width: 160px;
     height: 5.5vh;
     border: 0;
@@ -76,11 +71,6 @@
     padding: 5px;
 
 }
-
-
-
-
-
 
 /*Estilos inputs*/
 
@@ -94,6 +84,8 @@
     background-color: rgb(240, 240, 240);
     box-shadow: 5px;
     padding: 5px;
+    margin-bottom: 4px;
+    margin-inline: 4px;
 
 }
 
@@ -107,7 +99,8 @@
     background-color: rgb(240, 240, 240);
     box-shadow: 5px;
     padding: 5px;
-
+    margin-bottom: 4px;
+    margin-inline: 4px;
 }
 
 
@@ -121,7 +114,8 @@
     background-color: rgb(240, 240, 240);
     box-shadow: 5px;
     padding: 5px;
-
+    margin-bottom: 4px;
+    margin-inline: 4px;
 }
 
 
@@ -135,7 +129,8 @@
     background-color: rgb(240, 240, 240);
     box-shadow: 5px;
     padding: 5px;
-
+    margin-bottom: 4px;
+    margin-inline: 4px;
 }
 
 .Input5 {
@@ -148,7 +143,8 @@
     background-color: rgb(240, 240, 240);
     box-shadow: 5px;
     padding: 5px;
-
+    margin-bottom: 4px;
+    margin-inline: 4px;
 }
 
 
@@ -162,16 +158,12 @@
     background-color: rgb(240, 240, 240);
     box-shadow: 5px;
     padding: 5px;
-
+    margin-bottom: 4px;
+    margin-inline: 4px;
 }
 
 @media screen and (max-width: 375px) {
-body {
-    background-color: lightgreen;
-  }
 .DivData{
     flex-direction: column;
-
-
 }  
 }

@@ -9,7 +9,7 @@ function Recoverpasswordcode() {
   return (
     <div className={style.LoginPage}>
     <Header/>
-    <div className={style.Recoveremailpassword}>
+    <div className={style.LoginForm}>
           <h1 className={style.LoginTitle}>Recuperar Contraseña</h1>
           <form className={style.Form}>
             <div className={style.DivInput}>

@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import LoginForm from '../pages/login/LoginForm'
-import Appointments from '../pages/user/Appointments'
 import {Profile} from '../pages/user/Profile'
 import ClinicalModule from '../pages/profConv/PcClinicalModule'
 import OdClinicalModule from '../pages/odont/OdClinicalModule'
@@ -13,7 +12,6 @@ import Recoveremailpassword from '../pages/login/Recoveremailpassword'
 import Recovernewpassword from '../pages/login/Recovernewpassword'
 import Recoverpasswordcode from '../pages/login/Recoverpasswordcode'
 import NewPatient from '../pages/odont/newPat/newPatient'
-import Examen from '../pages/odont/newPat/examen/Examen1'
 
 const App = () => {
     return(
@@ -26,10 +24,6 @@ const App = () => {
                 <Route 
                 exact path="/clinical-module"
                 element={<ClinicalModule/>}
-                />
-                <Route 
-                exact path="/appointments"
-                element={<Appointments/>}
                 />
                 <Route 
                 exact path="/profile"
@@ -56,24 +50,20 @@ const App = () => {
                 element={<DatesHC/>}
                 />
                 <Route
-                exact path="/Recover-email-password"
+                exact path="/recover-email-password"
                 element={<Recoveremailpassword/>}
                 />
                 <Route
-                exact path="/Recover-new-password"
+                exact path="/recover-new-password"
                 element={<Recovernewpassword/>}
                 />
                 <Route
-                exact path="Recover-password-code"
+                exact path="/recover-password-code"
                 element={<Recoverpasswordcode/>}
                 />
                 <Route
                 exact path="/new-patient"
                 element={<NewPatient/>}
-                />
-                <Route
-                exact path="/examen"
-                element={<Examen/>}
                 />
             </Routes>
         </Router>

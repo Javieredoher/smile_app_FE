@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className={styles.Footer}> 
     <div className='footer-info'>
-        <h3>Smile Here</h3>
+        <text>© Todos los derechos reservados</text>
     </div>
     </footer>
 

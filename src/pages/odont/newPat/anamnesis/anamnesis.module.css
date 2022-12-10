@@ -91,8 +91,6 @@
     border-radius: 3px;    
 }
 
-
-
 .Input {
     width: 64vw;
     min-width: 200px;
@@ -121,36 +119,4 @@
 .Radio{
     border-color: black;
     background-color: aqua;
-}
-
-
-.DivData{
-    display: flex;
-    min-height: fit-content;
-    width: 66vw;
-    min-width: 30vh;
-    margin-block: 2vh;
-    margin-inline: 8vw;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-
-.Button:hover {
-    cursor: pointer; 
-    transform: scale(1.15);
-}
-
-.Button{
-    background-color: #5FCAD1;
-    border: 0;
-    border-radius: 3px;
-    font-family: 'Lexend Deca', sans-serif;
-    color: white;
-    box-shadow:        
-    inset 0 -3em 3em rgba(0,0,0,0.1),
-    0.1em 0.2em 0.4em rgba(0,0,0,0.5);
-    padding: 8px;
-    font-size: 15px;
 }
