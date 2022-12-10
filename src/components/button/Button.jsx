@@ -1,9 +1,8 @@
 import React from 'react'
-import style from './Button.module.css'
 
-function Button({value= ''}) {
+function Button({className='' , value= ''}) {
   return (
-    <input className={style.ButtonInput} type='button' value={value}></input>
+    <input className={className} type='button' value={value}></input>
   )
 }
 

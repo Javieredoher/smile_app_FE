@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;500&display=swap');
+
+/*Encabezado*/
+
+.DivTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.Title {
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Img{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+/*I. Información general*/
+
+.DivSubtitulo {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+}
+
+
+/*Styles Alerta médica*/
+
+.DivData{
+    display: flex;
+    min-height: fit-content;
+    min-width: 30vh;
+    margin-block: 2vh;
+    margin-inline: 8vw;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.Label{
+    margin-right: 1px;
+    margin-left: 1px;
+    font-family: 'Lexend Deca';
+    font-size: 14px;
+
+}
+
+.InputAlert{
+    float: left;
+    width: 100vw;
+    min-width: 160px;
+    height: 5.5vh;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    padding: 5px;
+
+}
+
+/*Estilos inputs*/
+
+.Input{
+    float: left;
+    width: 31.5vw;
+    min-width: 170px;
+    height: 4vh;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    padding: 5px;
+    margin-bottom: 4px;
+    margin-inline: 4px;
+
+}
+
+.Input2 {
+    float: left;
+    width: 24.5vw;
+    min-width: 160px;
+    height: 4vh;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    padding: 5px;
+    margin-bottom: 4px;
+    margin-inline: 4px;
+}
+
+
+.Input3 {
+    float: left;
+    width: 3vw;
+    min-width: 150px;
+    height: 4vh;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    padding: 5px;
+    margin-bottom: 4px;
+    margin-inline: 4px;
+}
+
+
+.Input4 {
+    float: left;
+    width: 31.5vw;
+    min-width: 150px;
+    height: 4vh;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    padding: 5px;
+    margin-bottom: 4px;
+    margin-inline: 4px;
+}
+
+.Input5 {
+    float: left;
+    width: 67vw;
+    min-width: 150px;
+    height: 4vh;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    padding: 5px;
+    margin-bottom: 4px;
+    margin-inline: 4px;
+}
+
+
+.Input6 {
+    float: left;
+    width: 35vw;
+    min-width: 150px;
+    height: 4vh;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 5px;
+    padding: 5px;
+    margin-bottom: 4px;
+    margin-inline: 4px;
+}
+
+@media screen and (max-width: 375px) {
+.DivData{
+    flex-direction: column;
+}  
+}

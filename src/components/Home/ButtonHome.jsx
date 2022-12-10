@@ -1,12 +1,12 @@
 import React from 'react'
-import style from './home.module.css'
+import style from './content.module.css'
 
 function ButtonHome({value='', icon=''}) {
   return (
-    <>
-      <img />
-      <h3 className={style.ButtonHome}>{value}</h3>
-    </>
+    <div className={style.ButtonHome}>
+      <img className={style.Img} src={icon} alt='icon button'/>
+      <h4 >{value}</h4>
+    </div>
   )
 }
 

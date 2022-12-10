@@ -1,0 +1,122 @@
+.DivTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.Title {
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Title2 {
+    text-align: center;
+    font-size:medium;
+    font-weight: 300;
+    justify-content: space-around;
+}
+
+.DivSubtitulo {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.Table{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+}
+
+.Encabezado {
+    text-align: center;
+    width: 50vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+.Encabezado2 {
+    text-align: center;
+    width: 5vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+.Celda {
+    text-align: left;
+    width: 50vw;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+    height: 4vh;
+}
+
+.Observaciones{
+    width: 60.3vw;
+    min-height: 10vh;
+    height: 13vh;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+    display: flex;
+    min-width: 240.5px;
+    float: right;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Celda2 {
+    text-align: center;
+    width: 5vw;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;    
+}
+
+.Input {
+    width: 64vw;
+    min-width: 200px;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(209, 209, 209);
+    box-shadow: 5px;
+    margin: 5px;
+    padding: 6px;
+    resize: none;
+    flex-direction: row;
+    float: right;
+}
+
+.Label, .LabelObv{
+    margin-left: 4px;
+    font-family: 'Lexend Deca';
+    align-items: center;
+}
+
+.LabelObv{
+    height: 5px;
+    margin-top: 4px;
+}
+
+.Radio{
+    border-color: black;
+    background-color: aqua;
+}

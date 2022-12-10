@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;500&display=swap');
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.ItemList {
+    display: flex;
+    font: inherit;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.DivList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: 1.53vh;
+    margin-bottom: -1vh;
+}
+
+.PList {
+    width: 25%;
+    text-align: start;
+    margin: 0vh;
+}
+
+.Info {
+    background-color:  rgb(240, 240, 240);
+    min-width: 330px;
+    max-width: 500px;
+    width: 70%;
+    border-radius: 15px;
+    border: 0;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    margin: 0;
+}
